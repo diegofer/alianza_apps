@@ -6,7 +6,15 @@ define(function (require) {
 	    _            = require('underscore'),
 		Backbone     = require('backbone'),
 		L            = require('src/leaflet/leaflet'),
-		MakiMarkers  = require('src/leaflet/Leaflet.MakiMarkers');
+		MakiMarkers  = require('src/leaflet/Leaflet.MakiMarkers'),
+
+		capaCentral       = new L.LayerGroup(),
+		capaSurOriental   = new L.LayerGroup(),
+		capaMecusab       = new L.LayerGroup(),
+
+		arrayRegiones     = [];
+
+
 
 
 
@@ -15,7 +23,6 @@ define(function (require) {
 		initialize: function() {
 			console.log('iniciando MapView');
 			this.render();
-			console.log(this.collection);
 
 			this.icon = L.MakiMarkers.icon({icon: "religious-christian", color: "#e82048", size: "m"});
 			this.arrayMarkers = [];
@@ -46,12 +53,68 @@ define(function (require) {
 	        return marker;     
 	    },
 
-	    showMarker: function(sede) {
+	    showSede: function(sede) {
 	    	this.clearMarkers();
+
 	    	var marker = this.drawMarker(sede);
+
+	    	this.map.setView(marker.getLatLng(), 14, {animate:true}); 
 	    	this.map.addLayer(marker);
+
 	    	this.arrayMarkers.push(marker);
 	    },
+
+
+	    showRegion: function(name) {
+
+	    	// remover capas del mapa si exiten
+	    	this.removeRegion();
+
+	    	// verificar que la capa exista este registrada
+	    	for (var i = 0; i < arrayRegiones.length; i++) {
+
+	    		var obj = arrayRegiones[i];
+	    		
+	    		if (obj.name === name) { 
+	    			this.map.addLayer(obj.capa);
+	    			return;
+	    		};
+	    	};
+
+
+	    	if (name === 'central') {
+	    		this.populateRegion(capaCentral, 'Central');
+	    		this.map.addLayer(capaCentral);
+	    		arrayRegiones.push({name:name,capa:capaCentral}); // registramos la capa region...
+	    	};
+
+	    	if (name === 'sur-oriental') {
+	    		this.populateRegion(capaSurOriental, 'Sur Oriental');
+	    		this.map.addLayer(capaSurOriental);
+	    		arrayRegiones.push({name:name,capa:capaSurOriental}); // registramos la capa region...
+	    	};
+
+	    	if (name === 'mecusab') {
+	    		this.populateRegion(capaMecusab, 'Mecusab');
+	    		this.map.addLayer(capaMecusab);
+	    		arrayRegiones.push({name:name,capa:capaMecusab});// registramos la capa region...
+	    	}; 
+	    	console.log(arrayRegiones); 	
+
+	    },
+
+
+	    populateRegion: function(layer, region) {
+
+    		var regionCollection = this.collection.where({region:region});
+
+    		_(regionCollection).each(function(sede){
+    			layer.addLayer( this.drawMarker(sede) );
+    		}, this);	
+	    },
+
+
+
 
 
 	    clearMarkers: function() {
@@ -61,6 +124,12 @@ define(function (require) {
                 this.map.removeLayer(marker); 
                 this.arrayMarkers.splice(marker);
             }, this);
+		},
+
+		removeRegion: function() {
+			_(arrayRegiones).each(function(obj){
+				this.map.removeLayer(obj.capa);
+			}, this);
 		}
 
 

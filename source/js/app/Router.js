@@ -40,22 +40,26 @@ define(function (require) {
 		},
 
 		routes: {
-			''           : 'inicio',
-			'sede/:id'   : 'sedeDetalle'
+			''             : 'inicio',
+			'sede/:id'     : 'sedeDetalle',
+			'region/:name' : 'regionDetalle'
 		},
 
 		inicio: function() {
+			this.mapView.removeRegion();
 			this.mapView.map.setView(L.latLng(4.520855,-74.098308), 6, {animate:true}); 	
 		},
 
 		sedeDetalle: function(id) {
-			var sede = this.sedes.findWhere({cod:id});
-			var point = sede.get('latlng');
-			this.mapView.map.setView(L.latLng(point.lat, point.lng), 14, {animate:true}); 
-				
-			this.mapView.showMarker(sede);
+			var sede = this.sedes.findWhere({cod:id});				
+			this.mapView.showSede(sede);
+		},
 
+		regionDetalle: function(name) {
+			this.mapView.showRegion(name);
 		}
+
+
 	});
 
 });
