@@ -9,6 +9,8 @@ define(function (require) {
 		SedeListView     = require('app/views/SedeListView'),
 		SearchView       = require('app/views/SearchView');
 
+	var $menuItems = $('#menu-principal').find('li');
+
 
 	return  Backbone.Router.extend({
 
@@ -46,18 +48,41 @@ define(function (require) {
 		},
 
 		inicio: function() {
+			this.selectMenuItem('home');
+			this.clearSelectLisItem();
+			this.mapView.clearMarkers();
 			this.mapView.removeRegion();
 			this.mapView.map.setView(L.latLng(4.520855,-74.098308), 6, {animate:true}); 	
 		},
 
 		sedeDetalle: function(id) {
+			this.selectMenuItem('home');
+			this.mapView.removeRegion();
 			var sede = this.sedes.findWhere({cod:id});				
 			this.mapView.showSede(sede);
 		},
 
 		regionDetalle: function(name) {
-			this.mapView.showRegion(name);
+			this.selectMenuItem(name);
+			this.clearSelectLisItem();
+			this.mapView.clearMarkers();
+			this.mapView.showRegion(name);	
+		},
+
+		selectMenuItem: function(menuItem) {
+			$menuItems.removeClass('active');
+
+			if (menuItem) {
+                $('#' + menuItem).addClass('active');
+            }
+		},
+
+		clearSelectLisItem: function() {
+			$('#list-sedes').find('.list-group-item').removeClass('active');
 		}
+
+
+
 
 
 	});

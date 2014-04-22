@@ -11,8 +11,25 @@ define(function (require) {
 		capaCentral       = new L.LayerGroup(),
 		capaSurOriental   = new L.LayerGroup(),
 		capaMecusab       = new L.LayerGroup(),
+		capaPacifico      = new L.LayerGroup(),
+		capaSur           = new L.LayerGroup();
 
-		arrayRegiones     = [];
+
+		var R_CENTRAL       = 'central',
+			R_SURORIENTAL   = 'sur-oriental',
+			R_MECUSAB       = 'mecusab',
+			R_PACIFICO      = 'pacifico',
+			R_SUR           = 'sur';
+
+		var arrayRegiones   = [];
+
+		var regiones = {
+			'central'      : { 'name': R_CENTRAL, 'center':{'lat':7.3841, 'lng':-75.6518}, 'zoom': 7, 'path': 'sr`X`dzmMgmMePmxi@jqdCuvYsb^aep@smTs`v@_e_@mwy@~oUkcj@_~[_viAhvIyxk@~re@icAfppAqzmBfjp@yhTgnc@g`PrqGokEgjp@mie@umTcsmBfr}By}[o|SgiSk}Aa`GqeKmbMaxGjQibH~qUiG{{CbyL`gEtpAxtQps@nhAacIvH_nJweCskI_|P}_CybWvOif^xiD{s^`wJenMljTkgLuxJmpH}`l@uodC{hyBu`R}xeAw{s@ivI__oB_mEudoA}nr@jznB}byAxifCsmT`}s@~zK`ok@inc@bvdA{wFznRiqEfeMvoHx_UtoHnkAxcYveK`iGvzMc~EzbRi`]|bRufQh{^y{DfwKwfFd~FhjB~q@xlJ~gPfqBr~BqiAluJl|Gde[y~T{uFwmIwjK{rBybDcxGtiK{mDveNfhKtkKq`CvqKt_EjgU}|I`{NyVpXm|S{pu@mw}@n{v@{iKdw|A|~eBbkeArwg@z}mA~zKr_nA?jfRhdPgyK|d_@x_EtfV`~ProPzfDjpDsQrlKzbExeElKvrI`jIzoGpzNaxBhrIlwFxoOwwDxzH|yFzyKnqA|cE`WtcAgk@pjFjgEbsAzb@rfEsl@j{Af_Brd@nvEfvAtn@xQx_AhjDdnD`bBl|AjtF}Lj~FjoIjzYzdCb}Dh[rhAkd@|t@xfCbcF~`Bpl@d}B~uA``@|_AaUxjGjwE|bDfDx_Aj`DraAhO[ltApkAkPbr@lnB|iBxK`AdfCgoAf`@' },
+			'sur-oriental' : { 'name': R_SURORIENTAL, 'center':{'lat':2.2960, 'lng':-75.3085}, 'zoom': 7, 'path':'waaSxqmfMu_e@ucAwsn@spd@{`Od~Em{DxpNe|[{M}u`@cyGmqKrrIlnDliSkmNpbWwh@`xU{ji@mjMmkh@zRmyUcqKgz_AkcC}iUnLqbBvqP`Edid@t_Ylq\nqLfg^leKycExuLvhJ|mK{lF`dW~}Jpa\pwE`xZpb\h`_@lqClca@z_Unri@lmSngv@rrc@`dE{h@fcPf_Fh|[r{CldXxv@tlEvX~z@fsDjzKucArpCfsDfmR}eMzqKnr@fl_@}kb@qGujDhuEi}Lz}EcP`sDnr@`fQdaKhyC~eBz|LcwBjtLrqGs~IfaKojDhvIfwQhvI{eBdeIz{SrtWkqGdsOqjDka@qcAtxJhxJbPtwF~lEjyCk}AltLjdEjyCtjDjxJka@`wBbiGmuEnyCcP`pJpfFpuEdoFglAj}AtcA~}E{tA~aDbiGfgJbPfnM{~IfnM{aZjcL}i@}lEo`GjjOnr@ghCsfQbsD{{DscAsqGfuPoyCjdSuzAtpm@x_Sz`SjJfiMqof@f|Npy{@{cVrua@uwy@|DafKh|YbsRref@tkQhoBy}FnnKhwTlnWjud@_mK~phAj`ZltDuvR~oi@nhFd~Oe_E|iEwhaAq@oyx@kuWsmFoeIsbWhxUmdj@rmw@_zu@~cZcrfBymO}fMpgj@{y|@azMo`Qlla@ufK~ja@y`_Ae}[y`iB`ih@qwyB{vM}ek@ryf@kgrAqxa@gw[kvr@iibC_fjAoyqAoka@tbsAaqpAlvaAanoAht_B_cHt{h@f}q@te|@icw@dzq@{jsAlsw@ml@r|~@krn@ncmBuvy@dzFalZ~gWik~@epY}cj@fmLghJlss@'},
+			'mecusab'      : { 'name': R_MECUSAB, 'center':{'lat':4.7935, 'lng':-73.9682}, 'zoom': 7, 'path': 'obyY|d{gMqkT_{Kywi@~eBuxv@onMkva@ytAiuQbwBqme@clL}}]ioFyvJor@cnF~lE{zDesOqvBceIzzDywQwtQouPtn^_tHpcId~EtaPelL~gKja@vlUicm@ime@yhh@zwb@whh@j{Lor@~aPonMto^_mElnF~lEzsXrjDxgCyeX`n]weXqtA{bHx{Lm|Sy{L_{KdnbBr_NszSxhh@bjDl_d@ern@jvIvvBrmTxmUhkSzyb@ogJfyZrlq@n~MxeXcP~aOfwYbzRpuI_fBz`OhyYomM~eB_hCblLeaf@nr@atPsxJidIbPevQjdP~jLbzRmoNx~TptArfQ'},
+			'pacifico'     : { 'name': R_PACIFICO, 'center':{'lat':3.7184, 'lng':-76.6117}, 'zoom': 7, 'path': 'k~yWvquwMm~MucAk~M}yh@`nU_~[fjDspd@deQsia@mgRgjp@ipV?akc@hkSguIi`]pvvA{hyBvxx@rpd@~kc@rqGje`@~lEfjVztAqcAljZc`GdeImsHrwg@|vBxbH|fJ_tHn|[xpNkr@tfQulErmTm{S~eBzfJxs^ncPbwB}~Mxs^nkLr{ZgqGxpNhyCd~Ew}TngJ~vBluPgqGnr@me`@g`]esWypNqmMumTyb_@?y`OirV_hC~sHtoN~hRijDrfQouIdPgwY_pU~gCltm@'},
+			'sur'          : { 'name': R_SUR, 'center':{'lat':1.8425, 'lng':-77.3849}, 'zoom': 7, 'path': 'yhxR`wfxMlcPicm@qcA}nr@xuI}oUmcPka@ulEsb^bqVioF?_lb@qug@i}LnsHqst@r|L_wXz~MhoFjzZi}L`_N?vlTs{ZfxJstWvjb@|aOjhR_fBhxJ~lEevXtmTbtf@fjp@ycP~vXn{x@hkSia@hrVj}[~lEb{Z_{KxzK_pU`dPivIha@smT`kSu_Nhj_A~aOp_NhhCnfQguf@f}Lf`]tcAh|i@erVrmTsgo@jhCuvXr_NtvXhcm@zaOrcAqqG~aObrVrtWnfQihCdkSs_NzvXrfQnst@~zKpia@_iRtqG~zK_tHpvdAeqs@ihC}zKrwg@gkSja@foFfnc@o{Z|c|@u`l@ttWfvI|hRy~y@rdkAore@|re@okb@i`]zsHqzw@ygmAfyYydlAstWysW{byAxsWufQeoU}}[qa|@iuf@'}
+		};
 
 
 
@@ -38,7 +55,7 @@ define(function (require) {
 				subdomains: ['otile1','otile2','otile3','otile4']
 		    });
 		   	
-		    this.map = L.map(this.el, { center: [4.520855,-74.098308], zoom: 6});
+		    this.map = L.map(this.el); // no le doy la ubicacion para no entrar en conflicto cuando se recarga la pagina desde otra coordenada
 		    this.map.addLayer(capaBase);
 		},
 
@@ -67,40 +84,47 @@ define(function (require) {
 
 	    showRegion: function(name) {
 
+	    	var region = regiones[name],
+	    		center = L.latLng(region.center.lat, region.center.lng);
+
 	    	// remover capas del mapa si exiten
 	    	this.removeRegion();
 
-	    	// verificar que la capa exista este registrada
+	    	// verificar que la capa  este registrada
 	    	for (var i = 0; i < arrayRegiones.length; i++) {
 
 	    		var obj = arrayRegiones[i];
 	    		
 	    		if (obj.name === name) { 
-	    			this.map.addLayer(obj.capa);
+	    			this.addCapa(obj.capa, center, region.zoom);
 	    			return;
 	    		};
 	    	};
 
 
-	    	if (name === 'central') {
+	    	if (name === R_CENTRAL) {
 	    		this.populateRegion(capaCentral, 'Central');
-	    		this.map.addLayer(capaCentral);
-	    		arrayRegiones.push({name:name,capa:capaCentral}); // registramos la capa region...
+	    		this.addCapa( capaCentral, center, region.zoom )
+	    		arrayRegiones.push({name:name, capa:capaCentral}); // registramos la capa region...
 	    	};
 
-	    	if (name === 'sur-oriental') {
+	    	if (name === R_SURORIENTAL) {
 	    		this.populateRegion(capaSurOriental, 'Sur Oriental');
-	    		this.map.addLayer(capaSurOriental);
-	    		arrayRegiones.push({name:name,capa:capaSurOriental}); // registramos la capa region...
+	    		this.addCapa( capaSurOriental, center, region.zoom )
+	    		arrayRegiones.push({name:name, capa:capaSurOriental}); // registramos la capa region...
 	    	};
 
-	    	if (name === 'mecusab') {
+	    	if (name === R_MECUSAB) {
 	    		this.populateRegion(capaMecusab, 'Mecusab');
-	    		this.map.addLayer(capaMecusab);
-	    		arrayRegiones.push({name:name,capa:capaMecusab});// registramos la capa region...
+	    		this.addCapa( capaMecusab, center, region.zoom )
+	    		arrayRegiones.push({name:name, capa:capaMecusab});// registramos la capa region...
 	    	}; 
-	    	console.log(arrayRegiones); 	
 
+	    },
+
+	    addCapa: function(capa, latLng, zoom) {
+	    	this.map.addLayer(capa);
+	    	this.map.setView(latLng, zoom)
 	    },
 
 
