@@ -11,8 +11,28 @@
 	<link rel="stylesheet" href="src/leaflet/leaflet.css">
 
 	<style>	
-		body { padding-top: 70px; }
+		body { padding-top: 70px; background-color: #DAD6CA; }
 		#map {height: 600px;}
+		#barra-nav {background-color: #9f1d21;}
+		#barra-nav .navbar-brand,
+		#menu-principal li a {
+			color:#eae3e3 !important;
+		}
+		#menu-principal li a:hover {
+			color:#f28787 !important;
+		}
+		#menu-principal .active a {
+			background-color: #cc252a !important;
+			color:#fcf4f4 !important;
+		}
+		#list-sedes .active {
+			background-color: #cc252a;
+			border-color: #cc252a;
+			color: #eae3e3 !important;
+		}
+		#list-sedes .active h3 {
+			color: #eae3e3 !important;
+		}
 	</style>
 
 	<!--[if lt IE 9]>
@@ -26,7 +46,7 @@
      	<div class="container-fluid">
 
 		  	<div class="navbar-header">
-		  		<a class="navbar-brand" href="#">La Alianza</a>
+		  		<a class="navbar-brand" href="#">&nbsp;&nbsp;&nbsp;La Alianza&nbsp;&nbsp;&nbsp;</a>
 		  	</div>
 
 		  	<ul id="menu-principal" class="nav navbar-nav">
