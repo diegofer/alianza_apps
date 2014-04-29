@@ -41,7 +41,21 @@ define(function (require) {
 			console.log('iniciando MapView');
 			this.render();
 
-			this.icon = L.MakiMarkers.icon({icon: "religious-christian", color: "#e82048", size: "m"});
+			//this.icon = L.MakiMarkers.icon({icon: "religious-christian", color: "#e82048", size: "m"});
+
+			this.icon = L.icon({
+			    iconUrl: 'img/marker.png',
+			    //iconRetinaUrl: 'my-icon@2x.png',
+			    iconSize: [30, 35],
+			    iconAnchor: [10, 35],
+			    popupAnchor: [1, -35],
+			    //shadowUrl: 'my-icon-shadow.png',
+			    //shadowRetinaUrl: 'my-icon-shadow@2x.png',
+			    //shadowSize: [68, 95],
+			    //shadowAnchor: [22, 94]
+			});
+
+
 			this.arrayMarkers = [];
 		},
 
