@@ -15,9 +15,7 @@ require.config({
 		},
 		'underscore': {
 			exports: '_'
-		},
-
-		'src/leaflet/Leaflet.MakiMarkers' : ['src/leaflet/leaflet']
+		}
 	},
 
 	urlArgs: "bust=" + (new Date()).getTime(),

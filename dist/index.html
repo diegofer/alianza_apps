@@ -13,14 +13,14 @@
 	<style>	
 		body { padding-top: 70px; background-color: #EFEFEF; }
 		#map {height: 600px;}
-		#barra-nav {background-color: #9f1d21;}
-		#barra-nav .navbar-brand,
-		#menu-principal li a {
-			color:#eae3e3 !important;
-		}
-		#menu-principal li a:hover {
-			color:#f28787 !important;
-		}
+		
+		#barra-nav {background-color: #9f1d21;} 
+		#barra-nav .container-fluid {padding-left: 0;}
+		#barra-nav .navbar-header {background-color: #fff;} 
+		#barra-nav .navbar-brand {padding: 0 15px !important;}
+		
+		#menu-principal li a {color:#eae3e3 !important;}	
+		#menu-principal li a:hover {color:#f28787 !important;}
 		#menu-principal .active a {
 			background-color: #cc252a !important;
 			color:#fcf4f4 !important;
@@ -30,9 +30,7 @@
 			border-color: #cc252a;
 			color: #eae3e3 !important;
 		}
-		#list-sedes .active h3 {
-			color: #eae3e3 !important;
-		}
+		#list-sedes .active h3 {color: #eae3e3 !important;}
 	</style>
 
 	<!--[if lt IE 9]>
@@ -42,13 +40,16 @@
 </head>
 <body>
 
+	
+
 	<nav id="barra-nav" class="navbar navbar-default navbar-fixed-top" role="navigation" >
      	<div class="container-fluid">
 
 		  	<div class="navbar-header">
 		  		<a class="navbar-brand" href="#">
 		  			<img src="img/LOGO-ALIANZA-SEDES.png">
-		  		</a>
+		  		</a>  
+		  		
 		  	</div>
 
 		  	<ul id="menu-principal" class="nav navbar-nav">
@@ -138,6 +139,6 @@
 		</a>
 	</script>
 
-	<script data-main="js/app.js" src="js/lib/require.js"></script>
+	<script data-main="js/app.js?v=5" src="js/lib/require.js"></script>
 </body>
 </html>

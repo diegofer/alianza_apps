@@ -6,7 +6,6 @@ define(function (require) {
 	    _            = require('underscore'),
 		Backbone     = require('backbone'),
 		L            = require('src/leaflet/leaflet'),
-		MakiMarkers  = require('src/leaflet/Leaflet.MakiMarkers'),
 
 		capaCentral       = new L.LayerGroup(),
 		capaSurOriental   = new L.LayerGroup(),
@@ -40,8 +39,6 @@ define(function (require) {
 		initialize: function() {
 			console.log('iniciando MapView');
 			this.render();
-
-			//this.icon = L.MakiMarkers.icon({icon: "religious-christian", color: "#e82048", size: "m"});
 
 			this.icon = L.icon({
 			    iconUrl: 'img/marker.png',

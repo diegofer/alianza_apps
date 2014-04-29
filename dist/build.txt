@@ -19,7 +19,6 @@ js/lib/backbone.js
 js/app/model/SedeModel.js
 js/app/model/SedesCollection.js
 src/leaflet/leaflet.js
-src/leaflet/Leaflet.MakiMarkers.js
 js/app/views/MapView.js
 js/lib/text.js
 text!tpl/Sede.html
