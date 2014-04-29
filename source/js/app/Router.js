@@ -4,6 +4,7 @@ define(function (require) {
 
 	var $                = require('jquery'),
 		Backbone         = require('backbone'),
+		bootstrap        = require('src/bootstrap/js/bootstrap.min'),
 
 		MapView          = require('app/views/MapView'),
 		SedeListView     = require('app/views/SedeListView'),

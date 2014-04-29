@@ -46,32 +46,44 @@
      	<div class="container-fluid">
 
 		  	<div class="navbar-header">
+
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+
 		  		<a class="navbar-brand" href="#">
 		  			<img src="img/LOGO-ALIANZA-SEDES.png">
 		  		</a>  
 		  		
 		  	</div>
 
-		  	<ul id="menu-principal" class="nav navbar-nav">
+		  	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-		  		<li id="central">
-		  			<a  href="#/region/central">Central</a>
-		  		</li>
-		  		<li id="sur-oriental">
-		  			<a  href="#/region/sur-oriental">Sur Oriental</a>
-		  		</li>
-		  		<li id="mecusab">
-		  			<a  href="#/region/mecusab">Mecusab</a>
-		  		</li>
-		  		<li id="pacifico">
-		  			<a  href="#/region/pacifico">Pacífico</a>
-		  		</li>
-		  		<li id="sur">
-		  			<a  href="#/region/sur">Sur</a>
-		  		</li>
+			  	<ul id="menu-principal" class="nav navbar-nav">
 
-		  		
-		  	</ul>
+			  		<li id="central">
+			  			<a  href="#/region/central">Central</a>
+			  		</li>
+			  		<li id="sur-oriental">
+			  			<a  href="#/region/sur-oriental">Sur Oriental</a>
+			  		</li>
+			  		<li id="mecusab">
+			  			<a  href="#/region/mecusab">Mecusab</a>
+			  		</li>
+			  		<li id="pacifico">
+			  			<a  href="#/region/pacifico">Pacífico</a>
+			  		</li>
+			  		<li id="sur">
+			  			<a  href="#/region/sur">Sur</a>
+			  		</li>
+
+			  		
+			  	</ul>
+		  	</div><!-- /.navbar-collapse -->
 	    </div>
 	</nav>
 
@@ -119,26 +131,8 @@
 		</div>
 	</div>
 
+	
+	<script data-main="js/app.js?v=6" src="js/lib/require.js"></script>
 
-
-
-	<script type="text/template" id="sede-item-tpl">
-		<a href="#" class="list-group-item">
-			<div class="row">
-				<div class="col-sm-2">
-					<h4 style="margin:0;"> <span class="glyphicon glyphicon-home"></span> </h4>
-				</div>
-				<div class="col-sm-10">
-					<h5 style="margin:0;"> sede <%= sede %> </h5>
-					<h6 style="margin:0;"> <%= dir %> </h6>
-					<h6 style="margin:0;"> <%= ciudad %> </h6>
-				</div>
-			</div>
-
-			
-		</a>
-	</script>
-
-	<script data-main="js/app.js?v=5" src="js/lib/require.js"></script>
 </body>
 </html>

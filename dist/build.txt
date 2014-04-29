@@ -18,6 +18,7 @@ js/lib/underscore.js
 js/lib/backbone.js
 js/app/model/SedeModel.js
 js/app/model/SedesCollection.js
+src/bootstrap/js/bootstrap.min.js
 src/leaflet/leaflet.js
 js/app/views/MapView.js
 js/lib/text.js
