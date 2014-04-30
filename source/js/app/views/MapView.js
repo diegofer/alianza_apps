@@ -77,7 +77,7 @@ define(function (require) {
 		drawMarker: function(sede) {
 			var point = sede.get('latlng');
 	        var marker = L.marker([point.lat, point.lng],{icon: this.icon});
-	        marker.bindPopup( 'Sede '+ sede.get('sede') + '<br/>' + sede.get('dir') + '<br/>'+ sede.get('ciudad') );
+	        marker.bindPopup( '<strong>Sede '+ sede.get('sede') + '</strong><br/>' + sede.get('dir') + '<br/>'+ sede.get('ciudad') + '<br/>'+ 'Tel. ' + sede.get('tel') );
 	        return marker;     
 	    },
 

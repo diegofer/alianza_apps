@@ -8,29 +8,31 @@
 	<title>Sedes Iglesia Alianza Cristiana Colombia</title>
 	
 	<link rel="stylesheet" href="src/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="src/leaflet/leaflet.css">
+	<link rel="stylesheet" href="src/leaflet/leaflet.css" type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
 	<style>	
-		body { padding-top: 70px; background-color: #EFEFEF; }
-		#map {height: 600px;}
+		body { padding-top: 70px; background-color: #EFEFEF; font-family: 'Open Sans', sans-serif;}
+		#map {height: 500px;}
 		
 		#barra-nav {background-color: #9f1d21;} 
 		#barra-nav .container-fluid {padding-left: 0;}
-		#barra-nav .navbar-header {background-color: #fff;} 
+		#barra-nav .navbar-header {background-color: #fefefe;} 
 		#barra-nav .navbar-brand {padding: 0 15px !important;}
 		
-		#menu-principal li a {color:#eae3e3 !important;}	
-		#menu-principal li a:hover {color:#f28787 !important;}
-		#menu-principal .active a {
-			background-color: #cc252a !important;
-			color:#fcf4f4 !important;
-		}
-		#list-sedes .active {
-			background-color: #cc252a;
-			border-color: #cc252a;
-			color: #eae3e3 !important;
-		}
+		#menu-principal li a {color:#fefefe !important; font-weight: 300;}	
+		#menu-principal li a:hover {font-weight: 700;}
+		#menu-principal .active a {background-color: #cc252a;}
+		#texto {font-size: 12px; text-align: justify;}
+		#list-sedes .active {background-color: #cc252a;	border-color: #cc252a;}
 		#list-sedes .active h3 {color: #eae3e3 !important;}
+
+		#input-search.form-control:focus {
+			border-color: #cc252a;
+			-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(191, 70, 72, 0.6);
+  			box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(191, 70, 72, 0.6);
+			
+		}
 	</style>
 
 	<!--[if lt IE 9]>
@@ -66,19 +68,19 @@
 			  	<ul id="menu-principal" class="nav navbar-nav">
 
 			  		<li id="central">
-			  			<a  href="#/region/central">Central</a>
+			  			<a  href="#/region/central">CENTRAL</a>
 			  		</li>
 			  		<li id="sur-oriental">
-			  			<a  href="#/region/sur-oriental">Sur Oriental</a>
+			  			<a  href="#/region/sur-oriental">SUR ORIENTAL</a>
 			  		</li>
 			  		<li id="mecusab">
-			  			<a  href="#/region/mecusab">Mecusab</a>
+			  			<a  href="#/region/mecusab">MECUSAB</a>
 			  		</li>
 			  		<li id="pacifico">
-			  			<a  href="#/region/pacifico">Pacífico</a>
+			  			<a  href="#/region/pacifico">PACÍFICO</a>
 			  		</li>
 			  		<li id="sur">
-			  			<a  href="#/region/sur">Sur</a>
+			  			<a  href="#/region/sur">SUR</a>
 			  		</li>
 
 			  		
@@ -97,9 +99,9 @@
 					<div class="panel-heading">Hola</div>
 					<div class="panel-body"> -->
 
-						<div class="well well-sm">
+						<p id"texto">
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic ex suscipit atque id quos harum asperiores voluptates adipisci magni modi! Nisi sed temporibus repellendus optio maxime voluptate cum.
-						</div>
+						</p>
 
 						<div class="input-group">
 						    <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
@@ -132,7 +134,7 @@
 	</div>
 
 	
-	<script data-main="js/app.js?v=6" src="js/lib/require.js"></script>
+	<script data-main="js/app.js?v=7" src="js/lib/require.js"></script>
 
 </body>
 </html>
