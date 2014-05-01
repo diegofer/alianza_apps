@@ -27,7 +27,7 @@ define(function (require) {
 				collection: this.sedes
 			});
 
-			var listProvider =  new Backbone.Collection(data.sedes.slice(0,5)); // le saco una copia a la collecion para alimentar la lista
+			var listProvider =  new Backbone.Collection(); // le saco una copia a la collecion para alimentar la lista
 			
 			var sedeListView = new SedeListView({
 				el: $('#list-sedes'),

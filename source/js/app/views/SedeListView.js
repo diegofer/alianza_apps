@@ -17,7 +17,7 @@ define(function (require) {
 			console.log('inicializando sedeListView');
 			this.childViews = [];
 			this.collection.bind("reset", this.onReset, this);
-			this.render();
+			//this.render();
 		},
 
 		onReset: function() {

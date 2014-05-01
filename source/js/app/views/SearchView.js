@@ -23,6 +23,7 @@ define(function (require) {
         search: function(event) {
 			if (/^\s+$/.test(event.target.value) || event.target.value == '' ) {
 				console.log('no hay nada para buscar');	
+				this.listProvider.reset();
 				return;
 			};
 
