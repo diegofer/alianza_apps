@@ -21,20 +21,20 @@
 		#barra-nav .navbar-brand {padding: 0 15px !important;}
 		
 		#menu-principal li a {color:#fefefe !important; font-weight: 300;}	
-		#menu-principal li a:hover {font-weight: 700;}
+		#menu-principal li a:hover {font-weight: 700; background-color: #db3d40;}
 		#menu-principal .active a {background-color: #cc252a;}
-		#texto {font-size: 12px; text-align: justify; }
+		#titulo, #texto {font-size: 12px; font-weight: bold; text-align: justify;}
+		#texto { font-weight: 300; }
 		#list-sedes .active {background-color: #cc252a;	border-color: #cc252a;}
 		#list-sedes .active h3 {color: #eae3e3 !important;}
 
 		#input-search.form-control:focus {
 			border-color: #cc252a;
 			-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(191, 70, 72, 0.6);
-  			box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(191, 70, 72, 0.6);
-			
+  			box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(191, 70, 72, 0.6);	
 		}
 
-		.input-group {margin-top: 50px;}
+		
 	</style>
 
 	<!--[if lt IE 9]>
@@ -98,9 +98,12 @@
 		<div class="row">
 			<div class="col-sm-3">
 				
+				
+				<p id="titulo">Queremos ayudarte a ubicar la iglesia Alianza más cercana!</p>
+				<p id="texto">
+					Escribe el nombre de la ciudad en Colombia, que deseas consultar, y verás una lista con los nombres y dirección de nuestras sedes.
 
-				<p id"texto">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic ex suscipit atque id quos harum asperiores voluptates adipisci magni modi! Nisi sed temporibus repellendus optio maxime voluptate cum.
+					Igualmente en la parte de arriba encontrarás las regiones por las que están sectorizadas nuestras iglesias.
 				</p>
 
 				<div class="input-group">
@@ -130,7 +133,7 @@
 	</div>
 
 	
-	<script data-main="js/app.js?v=8" src="js/lib/require.js"></script>
+	<script data-main="js/app.js?v=9" src="js/lib/require.js"></script>
 
 </body>
 </html>
