@@ -1,9 +1,9 @@
 {
-	appDir:  '../source',
+	appDir:  '../sedes_src',
 
-	dir: '../dist',
+	dir: '../sedes',
 
-	mainConfigFile: '../source/js/app.js',
+	mainConfigFile: '../sedes_src/js/app.js',
 
 	stubModules: ['text'],
 	removeCombined: true,
