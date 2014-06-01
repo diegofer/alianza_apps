@@ -11,14 +11,16 @@ define(function (require) {
 		capaSurOriental   = new L.LayerGroup(),
 		capaMecusab       = new L.LayerGroup(),
 		capaPacifico      = new L.LayerGroup(),
-		capaSur           = new L.LayerGroup();
+		capaSur           = new L.LayerGroup(),
+		capaValle           = new L.LayerGroup();
 
 
 		var R_CENTRAL       = 'central',
 			R_SURORIENTAL   = 'sur-oriental',
 			R_MECUSAB       = 'mecusab',
 			R_PACIFICO      = 'pacifico',
-			R_SUR           = 'sur';
+			R_SUR           = 'sur',
+			R_VALLE           = 'valle';
 
 		var arrayRegiones   = [];
 
@@ -27,7 +29,9 @@ define(function (require) {
 			'sur-oriental' : { 'name': R_SURORIENTAL, 'center':{'lat':2.2960, 'lng':-75.3085}, 'zoom': 7, 'path':'waaSxqmfMu_e@ucAwsn@spd@{`Od~Em{DxpNe|[{M}u`@cyGmqKrrIlnDliSkmNpbWwh@`xU{ji@mjMmkh@zRmyUcqKgz_AkcC}iUnLqbBvqP`Edid@t_Ylq\nqLfg^leKycExuLvhJ|mK{lF`dW~}Jpa\pwE`xZpb\h`_@lqClca@z_Unri@lmSngv@rrc@`dE{h@fcPf_Fh|[r{CldXxv@tlEvX~z@fsDjzKucArpCfsDfmR}eMzqKnr@fl_@}kb@qGujDhuEi}Lz}EcP`sDnr@`fQdaKhyC~eBz|LcwBjtLrqGs~IfaKojDhvIfwQhvI{eBdeIz{SrtWkqGdsOqjDka@qcAtxJhxJbPtwF~lEjyCk}AltLjdEjyCtjDjxJka@`wBbiGmuEnyCcP`pJpfFpuEdoFglAj}AtcA~}E{tA~aDbiGfgJbPfnM{~IfnM{aZjcL}i@}lEo`GjjOnr@ghCsfQbsD{{DscAsqGfuPoyCjdSuzAtpm@x_Sz`SjJfiMqof@f|Npy{@{cVrua@uwy@|DafKh|YbsRref@tkQhoBy}FnnKhwTlnWjud@_mK~phAj`ZltDuvR~oi@nhFd~Oe_E|iEwhaAq@oyx@kuWsmFoeIsbWhxUmdj@rmw@_zu@~cZcrfBymO}fMpgj@{y|@azMo`Qlla@ufK~ja@y`_Ae}[y`iB`ih@qwyB{vM}ek@ryf@kgrAqxa@gw[kvr@iibC_fjAoyqAoka@tbsAaqpAlvaAanoAht_B_cHt{h@f}q@te|@icw@dzq@{jsAlsw@ml@r|~@krn@ncmBuvy@dzFalZ~gWik~@epY}cj@fmLghJlss@'},
 			'mecusab'      : { 'name': R_MECUSAB, 'center':{'lat':4.7935, 'lng':-73.9682}, 'zoom': 7, 'path': 'obyY|d{gMqkT_{Kywi@~eBuxv@onMkva@ytAiuQbwBqme@clL}}]ioFyvJor@cnF~lE{zDesOqvBceIzzDywQwtQouPtn^_tHpcId~EtaPelL~gKja@vlUicm@ime@yhh@zwb@whh@j{Lor@~aPonMto^_mElnF~lEzsXrjDxgCyeX`n]weXqtA{bHx{Lm|Sy{L_{KdnbBr_NszSxhh@bjDl_d@ern@jvIvvBrmTxmUhkSzyb@ogJfyZrlq@n~MxeXcP~aOfwYbzRpuI_fBz`OhyYomM~eB_hCblLeaf@nr@atPsxJidIbPevQjdP~jLbzRmoNx~TptArfQ'},
 			'pacifico'     : { 'name': R_PACIFICO, 'center':{'lat':3.7184, 'lng':-76.6117}, 'zoom': 7, 'path': 'k~yWvquwMm~MucAk~M}yh@`nU_~[fjDspd@deQsia@mgRgjp@ipV?akc@hkSguIi`]pvvA{hyBvxx@rpd@~kc@rqGje`@~lEfjVztAqcAljZc`GdeImsHrwg@|vBxbH|fJ_tHn|[xpNkr@tfQulErmTm{S~eBzfJxs^ncPbwB}~Mxs^nkLr{ZgqGxpNhyCd~Ew}TngJ~vBluPgqGnr@me`@g`]esWypNqmMumTyb_@?y`OirV_hC~sHtoN~hRijDrfQouIdPgwY_pU~gCltm@'},
-			'sur'          : { 'name': R_SUR, 'center':{'lat':1.8425, 'lng':-77.3849}, 'zoom': 7, 'path': 'yhxR`wfxMlcPicm@qcA}nr@xuI}oUmcPka@ulEsb^bqVioF?_lb@qug@i}LnsHqst@r|L_wXz~MhoFjzZi}L`_N?vlTs{ZfxJstWvjb@|aOjhR_fBhxJ~lEevXtmTbtf@fjp@ycP~vXn{x@hkSia@hrVj}[~lEb{Z_{KxzK_pU`dPivIha@smT`kSu_Nhj_A~aOp_NhhCnfQguf@f}Lf`]tcAh|i@erVrmTsgo@jhCuvXr_NtvXhcm@zaOrcAqqG~aObrVrtWnfQihCdkSs_NzvXrfQnst@~zKpia@_iRtqG~zK_tHpvdAeqs@ihC}zKrwg@gkSja@foFfnc@o{Z|c|@u`l@ttWfvI|hRy~y@rdkAore@|re@okb@i`]zsHqzw@ygmAfyYydlAstWysW{byAxsWufQeoU}}[qa|@iuf@'}
+			'sur'          : { 'name': R_SUR, 'center':{'lat':1.8425, 'lng':-77.3849}, 'zoom': 7, 'path': 'yhxR`wfxMlcPicm@qcA}nr@xuI}oUmcPka@ulEsb^bqVioF?_lb@qug@i}LnsHqst@r|L_wXz~MhoFjzZi}L`_N?vlTs{ZfxJstWvjb@|aOjhR_fBhxJ~lEevXtmTbtf@fjp@ycP~vXn{x@hkSia@hrVj}[~lEb{Z_{KxzK_pU`dPivIha@smT`kSu_Nhj_A~aOp_NhhCnfQguf@f}Lf`]tcAh|i@erVrmTsgo@jhCuvXr_NtvXhcm@zaOrcAqqG~aObrVrtWnfQihCdkSs_NzvXrfQnst@~zKpia@_iRtqG~zK_tHpvdAeqs@ihC}zKrwg@gkSja@foFfnc@o{Z|c|@u`l@ttWfvI|hRy~y@rdkAore@|re@okb@i`]zsHqzw@ygmAfyYydlAstWysW{byAxsWufQeoU}}[qa|@iuf@'},
+			'valle'        : { 'name': R_VALLE, 'center':{'lat':1.8425, 'lng':-77.3849}, 'zoom': 7, 'path': ''}
+
 		};
 
 
@@ -130,6 +134,24 @@ define(function (require) {
 	    		this.addCapa( capaMecusab, center, region.zoom )
 	    		arrayRegiones.push({name:name, capa:capaMecusab});// registramos la capa region...
 	    	}; 
+
+	    	if (name === R_PACIFICO) {
+	    		this.populateRegion(capaPacifico, 'Pacifico');
+	    		this.addCapa( capaPacifico, center, region.zoom )
+	    		arrayRegiones.push({name:name, capa:capaPacifico});// registramos la capa region...
+	    	};
+
+	    	if (name === R_SUR) {
+	    		this.populateRegion(capaSur, 'Sur');
+	    		this.addCapa( capaSur, center, region.zoom )
+	    		arrayRegiones.push({name:name, capa:capaSur});// registramos la capa region...
+	    	};
+
+	    	if (name === R_VALLE) {
+	    		this.populateRegion(capaValle, 'Valle');
+	    		this.addCapa( capaValle, center, region.zoom )
+	    		arrayRegiones.push({name:name, capa:capaValle});// registramos la capa region...
+	    	};
 
 	    },
 
