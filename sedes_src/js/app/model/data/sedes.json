@@ -1,18 +1,18 @@
 [
-    {   "sede": "Central",
+    {   "sede": "Principal",
         "cod":  "107",
         "ciudad": "Zarzal Valle",
         "region": "Central",
         "latlng": { 
-            "lat": 4.39388, 
-            "lng": -76.0742
+            "lat": 4.394142, 
+            "lng": 76.074468
         },
         "zoom": 16,
         "web": "",
         "dir": "calle 7 No 11-46 B. La Delfina",
-        "tel": "(032) 220 6628"
+        "tel": "(2) 220 6628"
     },{
-        "sede": "Central",
+        "sede": "Principal",
         "cod":  "101",
         "ciudad": "Armenia Quindío",
         "region": "Central",
@@ -22,20 +22,20 @@
         },
         "zoom": 16,
         "web": "",
-        "dir": "calle 9 Norte No 19-00",
-        "tel": "746 6119"
+        "dir": "Calle 9 Norte No 19-00",
+        "tel": "(6) 746 6119"
     },{
         "sede": "Bethel",
         "cod":  "102",
         "ciudad": "Armenia Quindío",
         "region": "Central",
         "latlng": { 
-            "lat": 4.538937999940507, 
-            "lng": -75.66761182006837
+            "lat": 4.536274,  
+            "lng": -75.668757
         },
         "zoom": 16,
         "web": "",
-        "dir": "mz p casa 8 B. el Recreo",
+        "dir": "Calle 12 # 13-50 Parque Sucre",
         "tel": ""
     },{
         "sede": "Belén",
@@ -48,10 +48,10 @@
         },
         "zoom": 16,
         "web": "",
-        "dir": "mz c casa 17 B. Belén",
-        "tel": "748 2750"
+        "dir": "Manzana C casa 17 B. Belén",
+        "tel": "(6) 748 2750"
     },{
-        "sede": "Central",
+        "sede": "Principal",
         "cod":  "111",
         "ciudad": "Génova Quindío",
         "region": "Central",
@@ -61,7 +61,7 @@
         },
         "zoom": 16,
         "web": "",
-        "dir": "carrera 10 No 18-61",
+        "dir": "Carrera 10 No 18-61",
         "tel": ""
     },{
         "sede": "Principal",
@@ -74,7 +74,7 @@
         },
         "zoom": 16,
         "web": "",
-        "dir": "calle 33 No 24-41",
+        "dir": "Calle 33 No 24-41",
         "tel": ""
     },{
         "sede": "Principal",
@@ -87,8 +87,8 @@
         },
         "zoom": 16,
         "web": "https://www.facebook.com/AlianzaTebaida",
-        "dir": "carrera 6 No 8-43",
-        "tel": "754 2103"
+        "dir": "Carrera 6 No 8-43",
+        "tel": "(6) 754 2103"
     },{
         "sede": "Principal",
         "cod":  "113",
@@ -100,7 +100,7 @@
         },
         "zoom": 16,
         "web": "",
-        "dir": "carrera 11 No 11-31",
+        "dir": "Carrera 11 No 11-31 B. Centro",
         "tel": ""
     },{
         "sede": "Principal",
@@ -113,7 +113,7 @@
         },
         "zoom": 16,
         "web": "",
-        "dir": "carrera 13 No 10-62",
+        "dir": "Carrera 13 No 10-62",
         "tel": ""
     },{
         "sede": "Principal",
@@ -126,7 +126,7 @@
         },
         "zoom": 16,
         "web": "",
-        "dir": "calle 5 No 5-58",
+        "dir": "Calle 5 No 5-58",
         "tel": ""
     },{
         "sede": "Principal",
@@ -139,7 +139,7 @@
         },
         "zoom": 16,
         "web": "",
-        "dir": "carrera 5 No 5-09",
+        "dir": "Carrera 5 No 5-09",
         "tel": ""
     },{
         "sede": "Principal",
@@ -152,8 +152,8 @@
         },
         "zoom": 16,
         "web": "",
-        "dir": "carrera 6 No 20-12",
-        "tel": ""
+        "dir": "Carrera 6 No 20-12",
+        "tel": "(6) 752 0468"
     },{
         "sede": "Principal",
         "cod":  "119",
@@ -165,8 +165,8 @@
         },
         "zoom": 16,
         "web": "",
-        "dir": "carrera 7 No 18-24",
-        "tel": "753 8460"
+        "dir": "Carrera 7 No 18-24",
+        "tel": "(6) 753 8460-5895"
     },{
         "sede": "Encuentro de Vida",
         "cod":  "128",
@@ -178,8 +178,8 @@
         },
         "zoom": 16,
         "web": "http://www.elencuentrodevida.org/web/",
-        "dir": "carrera 14 No 11N-85",
-        "tel": ""
+        "dir": "Carrera 14 No 11N-85",
+        "tel": "(6) 745 5536"
     },{
         "sede": "Principal",
         "cod":  "150",
@@ -191,7 +191,7 @@
         },
         "zoom": 16,
         "web": "",
-        "dir": "carrera 14 No 14",
+        "dir": "Carrera 14 - Calle 14",
         "tel": ""
     },{
         "sede": "Centro",
@@ -204,7 +204,7 @@
         },
         "zoom": 16,
         "web": "",
-        "dir": "carrera 9 No 4-45",
+        "dir": "Carrera 9 No 4-45",
         "tel": ""
     },{
         "sede": "San Andresito",
@@ -217,10 +217,10 @@
         },
         "zoom": 16,
         "web": "",
-        "dir": "carrera 7 No 35-40",
+        "dir": "Carrera 7 No 35-40",
         "tel": ""
     },{
-        "sede": "Aviva Pereira",
+        "sede": "Aviva",
         "cod":  "122",
         "ciudad": "Pereira, Risaralda",
         "region": "Central",
@@ -230,20 +230,20 @@
         },
         "zoom": 16,
         "web": "",
-        "dir": "calle 20 No 3-24",
-        "tel": ""
+        "dir": "Calle 20 No 3-24",
+        "tel": "(6) 344 8718"
     },{
         "sede": "Centro",
         "cod":  "123",
         "ciudad": "Manizales, Caldas",
         "region": "Central",
         "latlng": { 
-            "lat": 5.071960855236286,
-            "lng": -75.51387167060852
+            "lat": 5.060095, 
+            "lng": -75.492666
         },
         "zoom": 16,
         "web": "",
-        "dir": "calle 28 No 15-60",
+        "dir": "Calle 56 # 24A-27 B. Belén",
         "tel": ""
     },{
         "sede": "Asunción",
@@ -256,8 +256,8 @@
         },
         "zoom": 16,
         "web": "",
-        "dir": "carrera 16 No 51c-75",
-        "tel": ""
+        "dir": "Carrera 16 No 51c-75",
+        "tel": "(6) 885 9057"
     },{
         "sede": "Principal",
         "cod":  "126",
@@ -269,20 +269,20 @@
         },
         "zoom": 16,
         "web": "",
-        "dir": "calle 13 No 8-43",
+        "dir": "Calle 13 No 8-43",
         "tel": ""
     },{
         "sede": "Principal",
         "cod":  "125",
-        "ciudad": "Villa María, Caldas",
+        "ciudad": "Villamaría, Manizales, Caldas",
         "region": "Central",
         "latlng": { 
-            "lat": 5.56833,
-            "lng": -74.80977000000001
+            "lat": 5.043450, 
+            "lng": -75.512043
         },
         "zoom": 16,
         "web": "",
-        "dir": "carrera 6 No 10-31",
+        "dir": "Carrera 6 No 10-31",
         "tel": ""
     },{
         "sede": "Principal",
@@ -295,12 +295,12 @@
         },
         "zoom": 16,
         "web": "",
-        "dir": "calle 10 No 10-80",
+        "dir": "Calle 10 No 10-80",
         "tel": ""
     },{
         "sede": "Principal",
         "cod":  "129",
-        "ciudad": "Marcella, Caldas",
+        "ciudad": "Marsella, Caldas",
         "region": "Central",
         "latlng": { 
             "lat": 4.9345220336656155,
@@ -308,12 +308,12 @@
         },
         "zoom": 16,
         "web": "",
-        "dir": "carrera 12 No 7-48",
+        "dir": "Carrera 12 No 7-48",
         "tel": ""
     },{
         "sede": "Principal",
         "cod":  "108",
-        "ciudad": "Sevilla, Caldas",
+        "ciudad": "Sevilla, Valle",
         "region": "Central",
         "latlng": { 
             "lat": 4.272495578465387,
@@ -321,7 +321,7 @@
         },
         "zoom": 16,
         "web": "",
-        "dir": "carrera 43 No 48-31",
+        "dir": "Carrera 43 # 48-31 B. Granada",
         "tel": ""
     },{
         "sede": "La Floresta",
@@ -334,8 +334,8 @@
         },
         "zoom": 16,
         "web": "",
-        "dir": "carrera 94 No 48a-133",
-        "tel": ""
+        "dir": "Carrera 94 No 48a-133",
+        "tel": "(4) 234 9350"
     },{
         "sede": "Alfonso López",
         "cod":  "133",
@@ -347,7 +347,7 @@
         },
         "zoom": 16,
         "web": "",
-        "dir": "calle 91a No 67a-79",
+        "dir": "Calle 91A # 67A-79",
         "tel": ""
     },{
         "sede": "Principal",
@@ -360,8 +360,8 @@
         },
         "zoom": 16,
         "web": "",
-        "dir": "calle 109 No 14-25",
-        "tel": ""
+        "dir": "Calle 109 No 14-25",
+        "tel": "(4) 827 3210"
     },{
         "sede": "Principal",
         "cod":  "134",
@@ -373,7 +373,7 @@
         },
         "zoom": 16,
         "web": "",
-        "dir": "calle 103 No 79-27",
+        "dir": "Calle 103 # 79-27",
         "tel": ""
     },{
         "sede": "Principal",
@@ -386,8 +386,8 @@
         },
         "zoom": 16,
         "web": "",
-        "dir": "carrera 20 No 17-02",
-        "tel": ""
+        "dir": "Carrera 20 # 17-02",
+        "tel": "(4) 821 2136"
     },{
         "sede": "Principal",
         "cod":  "137",
@@ -399,8 +399,8 @@
         },
         "zoom": 16,
         "web": "",
-        "dir": "carrera 8 No 10-26",
-        "tel": ""
+        "dir": "Carrera 8 # 10-26 B.Buenavista",
+        "tel": "(4) 786 3495"
     },{
         "sede": "Edmundo López",
         "cod":  "138",
@@ -412,12 +412,25 @@
         },
         "zoom": 16,
         "web": "",
-        "dir": "carrera 8f No 11-61",
+        "dir": "Carrera 8F # 11-61 B. Edmundo López",
         "tel": ""
+    },{
+        "sede": "Robinson Pitalúa",
+        "cod":  "139",
+        "ciudad": "Montería, Córdoba",
+        "region": "Central",
+        "latlng": { 
+            "lat": 8.749960, 
+            "Ing": -75.884846
+        },
+        "zoom": 16,
+        "web": "",
+        "dir": "",
+        "tel": "(4) 792 5156"
     },{
         "sede": "Principal",
         "cod":  "142",
-        "ciudad": "Cereté, Córdoba",
+        "ciudad": "Cereté, Montería, Córdoba",
         "region": "Central",
         "latlng": { 
             "lat": 8.88167,
@@ -430,7 +443,7 @@
     },{
         "sede": "Principal",
         "cod":  "143",
-        "ciudad": "Jaraquiel, Córdoba",
+        "ciudad": "Jaraquiel, Montería, Córdoba",
         "region": "Central",
         "latlng": { 
             "lat": 8.694398,
@@ -438,8 +451,8 @@
         },
         "zoom": 16,
         "web": "",
-        "dir": "",
-        "tel": ""
+        "dir": "Vía Principal Jaraquiel",
+        "tel": "(4) 791 0199"
     },{
         "sede": "Principal",
         "cod":  "144",
@@ -451,8 +464,8 @@
         },
         "zoom": 16,
         "web": "",
-        "dir": "calle 15 No 12-34",
-        "tel": ""
+        "dir": "Calle 15 # 12-34",
+        "tel": "(4) 776 5735"
     },{
         "sede": "Principal",
         "cod":  "145",
@@ -464,10 +477,10 @@
         },
         "zoom": 16,
         "web": "",
-        "dir": "carrera 19a No 9a-15",
+        "dir": "Carrera 19A # 9A-15 B. Buenos Aires",
         "tel": ""
     },{
-        "sede": "Los Alpes",
+        "sede": "Principal",
         "cod":  "147",
         "ciudad": "Cartagena, Bolívar",
         "region": "Central",
@@ -477,8 +490,34 @@
         },
         "zoom": 16,
         "web": "",
-        "dir": "Transv. 71 No 31a-57",
-        "tel": "661 6939"
+        "dir": "Transv. 71 # 31A-57",
+        "tel": "(5) 661 6939"
+    },{
+        "sede": "Manga",
+        "cod":  "148",
+        "ciudad": "Cartagena, Bolívar",
+        "region": "Central",
+        "latlng": { 
+            "lat": 10.413507, 
+            "lng": -75.536864
+        },
+        "zoom": 16,
+        "web": "",
+        "dir": "Av. Jimenéz con Asamblea - Casa el Marquéz",
+        "tel": ""
+    },{
+        "sede": "La Granja",
+        "cod":  "149",
+        "ciudad": "Montería, Córdoba",
+        "region": "Central",
+        "latlng": { 
+            "lat": 8.735229, 
+            "lng": -75.875469
+        },
+        "zoom": 16,
+        "web": "",
+        "dir": "Transv. 24 # 33",
+        "tel": ""
     },{
         "sede": "Principal",
         "cod":  "104",
@@ -490,7 +529,7 @@
         },
         "zoom": 16,
         "web": "",
-        "dir": "carrera 25 No 20-73",
+        "dir": "Carrera 25 No 20-73",
         "tel": ""
     },{
         "sede": "Neiva Centro",
@@ -503,8 +542,8 @@
         },
         "zoom": 16,
         "web": "",
-        "dir": "carrera 12 No 9-45",
-        "tel": "871 6213"
+        "dir": "Carrera 12 No 9-45",
+        "tel": "(8) 871 6213"
     },{
         "sede": "Neiva Norte",
         "cod":  "214",
@@ -516,8 +555,8 @@
         },
         "zoom": 16,
         "web": "http://alianzaneivanorte.com/intro.html",
-        "dir": "carrera 7 No 81-14",
-        "tel": "866 0647"
+        "dir": "Carrera 7 No 81-14",
+        "tel": "(8) 866 0647"
     },{
         "sede": "Principal",
         "cod":  "215",
@@ -529,12 +568,12 @@
         },
         "zoom": 16,
         "web": "",
-        "dir": "calle 1 No 2-30",
-        "tel": "836 13-09"
+        "dir": "Calle 1 No 2-30",
+        "tel": "(8) 836 13-09"
     },{
         "sede": "Principal",
         "cod":  "Proyecto Misionero",
-        "ciudad": "Timaná - Huila,",
+        "ciudad": "Timaná, Huila,",
         "region": "Sur Oriental",
         "latlng": { 
             "lat": 1.9714431535717831,
@@ -547,7 +586,7 @@
     },{
         "sede": "Principal",
         "cod":  "206",
-        "ciudad": "Garzón - Huila,",
+        "ciudad": "Garzón, Huila,",
         "region": "Sur Oriental",
         "latlng": { 
             "lat": 2.1955164594331036,
@@ -555,12 +594,12 @@
         },
         "zoom": 16,
         "web": "",
-        "dir": "Calle 3 # 10a-22",
-        "tel": "833 0310"
+        "dir": "Calle 3 # 10A-22",
+        "tel": "(8) 833 0310"
     },{
         "sede": "Principal",
         "cod":  "279",
-        "ciudad": "Santa Marta - Huila,",
+        "ciudad": "Santa Martha, Huila,",
         "region": "Sur Oriental",
         "latlng": { 
             "lat": 1.933333,
@@ -568,12 +607,12 @@
         },
         "zoom": 16,
         "web": "",
-        "dir": "Av. Santa Marta",
-        "tel": "833 5150"
+        "dir": "Vereda Santa Martha",
+        "tel": "(8) 833 5150"
     },{
         "sede": "Principal",
         "cod":  "211",
-        "ciudad": "La Plata - Huila,",
+        "ciudad": "La Plata, Huila,",
         "region": "Sur Oriental",
         "latlng": { 
             "lat": 2.390939559747996,
@@ -582,11 +621,11 @@
         "zoom": 16,
         "web": "",
         "dir": "Calle 7 # 6-34",
-        "tel": "837 0585"
+        "tel": "(8) 837 0585"
     },{
         "sede": "Principal",
         "cod":  "208",
-        "ciudad": "Gigante - Huila,",
+        "ciudad": "Gigante, Huila,",
         "region": "Sur Oriental",
         "latlng": { 
             "lat": 2.386124554231928,
@@ -595,11 +634,11 @@
         "zoom": 16,
         "web": "",
         "dir": "Carrera 5 # 5-32",
-        "tel": "832 5595"
+        "tel": "(8) 832 5595"
     },{
         "sede": "Principal",
         "cod":  "204",
-        "ciudad": "Campoalegre - Huila,",
+        "ciudad": "Campoalegre, Huila,",
         "region": "Sur Oriental",
         "latlng": { 
             "lat": 2.684506300000036,
@@ -608,11 +647,11 @@
         "zoom": 16,
         "web": "",
         "dir": "Calle 18 # 10-05",
-        "tel": "838 0107"
+        "tel": "(8) 838 0107"
     },{
         "sede": "Principal",
         "cod":  "201",
-        "ciudad": "Algeciras - Huila,",
+        "ciudad": "Algeciras, Huila,",
         "region": "Sur Oriental",
         "latlng": { 
             "lat": 2.5255956658729457,
@@ -621,11 +660,11 @@
         "zoom": 16,
         "web": "",
         "dir": "Carrera 3 # 5-52",
-        "tel": "838 2141"
+        "tel": "(8) 838 2141"
     },{
         "sede": "Principal",
         "cod":  "209",
-        "ciudad": "Arcadia - Huila,",
+        "ciudad": "La Arcadia, Huila,",
         "region": "Sur Oriental",
         "latlng": { 
             "lat": 2.4450706,
@@ -634,11 +673,11 @@
         "zoom": 16,
         "web": "",
         "dir": "",
-        "tel": "833 6382"
+        "tel": "(8) 833 6382"
     },{
         "sede": "Principal",
         "cod":  "Proyecto Misionero",
-        "ciudad": "El Paraiso - Huila,",
+        "ciudad": "El Paraiso, Huila,",
         "region": "Sur Oriental",
         "latlng": { 
             "lat": 2.5969826,
@@ -651,7 +690,7 @@
     },{
         "sede": "Principal",
         "cod":  "202",
-        "ciudad": "Baraya - Huila,",
+        "ciudad": "Baraya, Huila,",
         "region": "Sur Oriental",
         "latlng": { 
             "lat": 3.154280243521469,
@@ -660,11 +699,11 @@
         "zoom": 16,
         "web": "",
         "dir": "Calle 5A # 5-28",
-        "tel": "878 8595"
+        "tel": "(8) 878 8595"
     },{
         "sede": "Principal",
         "cod":  "203",
-        "ciudad": "Bruselas - Huila,",
+        "ciudad": "Bruselas, Huila,",
         "region": "Sur Oriental",
         "latlng": { 
             "lat": 1.776436,
@@ -673,11 +712,11 @@
         "zoom": 16,
         "web": "",
         "dir": "",
-        "tel": "835 0218"
+        "tel": "(8) 835 0218"
     },{
         "sede": "Principal",
         "cod":  "205",
-        "ciudad": "Gaitania - Huila,",
+        "ciudad": "Gaitania, Huila,",
         "region": "Sur Oriental",
         "latlng": { 
             "lat": 3.0926862,
@@ -686,11 +725,11 @@
         "zoom": 16,
         "web": "",
         "dir": "",
-        "tel": "224 6057"
+        "tel": "(8) 224 6057"
     },{
         "sede": "Principal",
         "cod":  "216",
-        "ciudad": "Rio Negro - Huila,",
+        "ciudad": "Río Negro, Huila,",
         "region": "Sur Oriental",
         "latlng": { 
             "lat": 2.908689,
@@ -703,7 +742,7 @@
     },{
         "sede": "Principal",
         "cod":  "217",
-        "ciudad": "Rivera - Huila,",
+        "ciudad": "Rivera, Huila,",
         "region": "Sur Oriental",
         "latlng": { 
             "lat": 2.7782868932125715,
@@ -712,11 +751,11 @@
         "zoom": 16,
         "web": "",
         "dir": "Calle 2 # 13-63",
-        "tel": "838 6949"
+        "tel": "(8) 838 6949"
     },{
         "sede": "Principal",
         "cod":  "218",
-        "ciudad": "San Agustín - Huila,",
+        "ciudad": "San Agustín, Huila,",
         "region": "Sur Oriental",
         "latlng": { 
             "lat": 1.8801233232814634,
@@ -725,11 +764,11 @@
         "zoom": 16,
         "web": "",
         "dir": "Calle 2 # 7-28",
-        "tel": "837 9299"
+        "tel": "(8) 837 9299"
     },{
         "sede": "Principal",
         "cod":  "219",
-        "ciudad": "Santana Ramos, Puerto Rico - Huila,",
+        "ciudad": "Santana Ramos, Puerto Rico, Huila,",
         "region": "Sur Oriental",
         "latlng": { 
             "lat": 2.24035,
@@ -742,7 +781,7 @@
     },{
         "sede": "Principal",
         "cod":  "210",
-        "ciudad": "Los Angeles, La Plata - Huila,",
+        "ciudad": "Los Ángeles, La Plata, Huila,",
         "region": "Sur Oriental",
         "latlng": { 
             "lat": 2.455655,
@@ -755,7 +794,7 @@
     },{
         "sede": "Principal",
         "cod":  "220",
-        "ciudad": "Tello - Huila,",
+        "ciudad": "Tello, Huila,",
         "region": "Sur Oriental",
         "latlng": { 
             "lat": 3.068508377146552,
@@ -764,11 +803,11 @@
         "zoom": 16,
         "web": "",
         "dir": "Carrera 7 # 4-76",
-        "tel": "848 8194"
+        "tel": "(8) 848 8194"
     },{
         "sede": "Principal",
         "cod":  "221",
-        "ciudad": "Tres Esquinas - Huila,",
+        "ciudad": "Tres Esquinas, Gigante, Huila,",
         "region": "Sur Oriental",
         "latlng": { 
             "lat": 2.3211609,
@@ -789,12 +828,12 @@
         },
         "zoom": 16,
         "web": "",
-        "dir": "Carrera 7 # 5-53",
+        "dir": "Carrera 7 # 5-53 B. Coliseo",
         "tel": ""
     },{
         "sede": "Principal",
         "cod":  "224",
-        "ciudad": "El descanso, Garzón - Huila,",
+        "ciudad": "El descanso, Garzón, Huila,",
         "region": "Sur Oriental",
         "latlng": { 
             "lat": 2.2053925036589126,
@@ -807,7 +846,7 @@
     },{
         "sede": "Principal",
         "cod":  "225",
-        "ciudad": "La Gran Vía, Gigante - Huila,",
+        "ciudad": "La Gran Vía, Gigante, Huila,",
         "region": "Sur Oriental",
         "latlng": { 
             "lat": 2.3786767,
@@ -832,6 +871,19 @@
         "tel": ""
     },{
         "sede": "Principal",
+        "cod":  "226",
+        "ciudad": "San Pedro, Huila,",
+        "region": "Sur Oriental",
+        "latlng": { 
+            "lat": 1.880121,
+            "lng": -76.265323
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Calle 1 # 7-125",
+        "tel": ""
+    },{
+        "sede": "Principal",
         "cod":  "212",
         "ciudad": "Vegalarga, Neiva, Huila,",
         "region": "Sur Oriental",
@@ -842,7 +894,7 @@
         "zoom": 16,
         "web": "",
         "dir": "",
-        "tel": ""
+        "tel": "(8) 868 8052"
     },{
         "sede": "Principal",
         "cod":  "223",
@@ -857,7 +909,7 @@
         "dir": "Carrera 3 # 5-14 B. La Esperanza",
         "tel": ""
     },{
-        "sede": "Sede Oriente",
+        "sede": "Oriente",
         "cod":  "281",
         "ciudad": "Neiva, Huila,",
         "region": "Sur Oriental",
@@ -868,7 +920,7 @@
         "zoom": 16,
         "web": "",
         "dir": "Calle 19 # 50-09",
-        "tel": ""
+        "tel": "(8) 867 4267"
     },{
         "sede": "Principal",
         "cod":  "282",
@@ -877,6 +929,19 @@
         "latlng": { 
             "lat": 2.952747, 
             "lng": -75.223093
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "Proyecto Misionero",
+        "ciudad": "Potrerillos, Gigante, Huila,",
+        "region": "Sur Oriental",
+        "latlng": { 
+            "lat": 2.467620,  
+            "lng": -75.487460
         }, 
         "zoom": 16,
         "web": "",
@@ -907,7 +972,7 @@
         "zoom": 16,
         "web": "",
         "dir": "Calle 8 # 13A-26 B. Las Camelias",
-        "tel": ""
+        "tel": "(8) 878 3096"
     },{
         "sede": "Principal",
         "cod":  "275",
@@ -919,7 +984,7 @@
         }, 
         "zoom": 16,
         "web": "",
-        "dir": "Calle 5 # 8-100 B. Los Fundadores",
+        "dir": "Calle 5 # 8-100 B. Fundadores",
         "tel": ""
     },{
         "sede": "Proyecto Misionero",
@@ -1011,7 +1076,7 @@
         "zoom": 16,
         "web": "",
         "dir": "Calle 32 # 3A-24",
-        "tel": ""
+        "tel": "(2) 264 7425"
     },{
         "sede": "Principal",
         "cod":  "241",
@@ -1024,7 +1089,7 @@
         "zoom": 16,
         "web": "",
         "dir": "Carrera 3 # 2-26",
-        "tel": ""
+        "tel": "(2) 254 8700"
     },{
         "sede": "Principal",
         "cod":  "235",
@@ -1050,7 +1115,7 @@
         "zoom": 16,
         "web": "",
         "dir": "Carrera 7 # 4-46 B. Buenos Aires",
-        "tel": ""
+        "tel": "(2) 226 5584"
     },{
         "sede": "Principal",
         "cod":  "238",
@@ -1063,7 +1128,7 @@
         "zoom": 16,
         "web": "",
         "dir": "Calle 6A # 7-06",
-        "tel": ""
+        "tel": "(2) 226 8410"
     },{
         "sede": "Principal",
         "cod":  "243",
@@ -1076,7 +1141,7 @@
         "zoom": 16,
         "web": "",
         "dir": "Calle 9 # 5-69",
-        "tel": ""
+        "tel": "(2) 246 1005"
     },{
         "sede": "Principal",
         "cod":  "230",
@@ -1089,7 +1154,7 @@
         "zoom": 16,
         "web": "",
         "dir": "Vía Rioblanco, Herrera",
-        "tel": ""
+        "tel": "(2) 224 4106"
     },{
         "sede": "Principal",
         "cod":  "237",
@@ -1115,7 +1180,7 @@
         "zoom": 16,
         "web": "",
         "dir": "Carrera 6 # 37-48 B. San Simón",
-        "tel": ""
+        "tel": "(2) 264 1531"
     },{
         "sede": "Principal",
         "cod":  "242",
@@ -1141,7 +1206,7 @@
         "zoom": 16,
         "web": "",
         "dir": "Carrera 10 # 9-36",
-        "tel": ""
+        "tel": "(2) 436 3111"
     },{
         "sede": "Principal",
         "cod":  "227",
@@ -1154,7 +1219,7 @@
         "zoom": 16,
         "web": "",
         "dir": "Calle 3 # 2-23",
-        "tel": ""
+        "tel": "(2) 225 6205"
     },{
         "sede": "Proyecto Misionero Jireth",
         "cod":  "231",
@@ -1167,7 +1232,7 @@
         "zoom": 16,
         "web": "",
         "dir": "Calle 39 Manzana E Casa # 3",
-        "tel": ""
+        "tel": "(2) 264 1148"
     },{
         "sede": "Principal",
         "cod":  "247",
@@ -1180,7 +1245,7 @@
         "zoom": 16,
         "web": "",
         "dir": "Carrera 6 # 3-33 Comercio",
-        "tel": ""
+        "tel": "(4) 431 2276"
     },{
         "sede": "Principal",
         "cod":  "249",
@@ -1193,7 +1258,7 @@
         "zoom": 16,
         "web": "",
         "dir": "Calle 6A # 7-36 B. Santa Isabel",
-        "tel": ""
+        "tel": "(4) 464 4274"
     },{
         "sede": "Principal",
         "cod":  "246",
@@ -1206,7 +1271,7 @@
         "zoom": 16,
         "web": "",
         "dir": "Calle 6 # 4-70",
-        "tel": ""
+        "tel": "(4) 431 0307"
     },{
         "sede": "Principal",
         "cod":  "245",
@@ -1219,7 +1284,7 @@
         "zoom": 16,
         "web": "",
         "dir": "Calle 9 # 6-48",
-        "tel": ""
+        "tel": "(4) 431 8445"
     },{
         "sede": "Principal",
         "cod":  "269",
@@ -1232,7 +1297,7 @@
         "zoom": 16,
         "web": "",
         "dir": "Calle 6 Manzana 4",
-        "tel": ""
+        "tel": "(4) 430 0166"
     },{
         "sede": "Principal",
         "cod":  "258",
@@ -1245,7 +1310,7 @@
         "zoom": 16,
         "web": "",
         "dir": "",
-        "tel": ""
+        "tel": "(4) 430 6128"
     },{
         "sede": "Principal",
         "cod":  "235",
@@ -1271,7 +1336,7 @@
         "zoom": 16,
         "web": "",
         "dir": "Carrera 13 # 4-10",
-        "tel": ""
+        "tel": "(4) 429 0102"
     },{
         "sede": "Principal",
         "cod":  "252",
@@ -1284,7 +1349,7 @@
         "zoom": 16,
         "web": "",
         "dir": "B. Obrero 1",
-        "tel": ""
+        "tel": "(4) 422 0632"
     },{
         "sede": "Principal",
         "cod":  "250",
@@ -1297,7 +1362,7 @@
         "zoom": 16,
         "web": "",
         "dir": "",
-        "tel": ""
+        "tel": "(4) 428 5267-4228"
     },{
         "sede": "Principal",
         "cod":  "253",
@@ -1310,7 +1375,7 @@
         "zoom": 16,
         "web": "",
         "dir": "Calle 16 # 15-26",
-        "tel": ""
+        "tel": "(4) 429 6667"
     },{
         "sede": "Principal",
         "cod":  "255",
@@ -1330,13 +1395,13 @@
         "ciudad": "Bogotá, Cundinamarca,",
         "region": "Mecusab",
         "latlng": { 
-            "lat": 4.666281,                     
-            "lng": -74.055302
+            "lat": 4.623320,                      
+            "lng": -74.074605
         }, 
         "zoom": 16,
         "web": "",
-        "dir": "Av. 13 # 81-05",
-        "tel": ""
+        "dir": "Carrera 20 # 81–55",
+        "tel": "(1) 616 2969"
     },{
         "sede": "El Encuentro Avenida 80",
         "cod":  "301",
@@ -1349,20 +1414,20 @@
         "zoom": 16,
         "web": "",
         "dir": "Calle 80A # 94A-27",
-        "tel": ""
+        "tel": "(1) 227 1995"
     },{
         "sede": "San Cristóbal Norte",
         "cod":  "305",
         "ciudad": "Bogotá, Cundinamarca,",
         "region": "Mecusab",
         "latlng": { 
-            "lat": 4.737393,                       
+            "lat": 4.737393,                     
             "lng": -74.027939
         }, 
         "zoom": 16,
         "web": "",
         "dir": "Carrera 8B # 161A-40",
-        "tel": ""
+        "tel": "(1) 674 9182 - 679 1906"
     },{
         "sede": "El Encuentro Suba",
         "cod":  "309",
@@ -1375,7 +1440,7 @@
         "zoom": 16,
         "web": "",
         "dir": "Calle 133 # 9AB-50",
-        "tel": ""
+        "tel": "(1) 681 6483"
     },{
         "sede": "Fragüita",
         "cod":  "304",
@@ -1388,7 +1453,7 @@
         "zoom": 16,
         "web": "",
         "dir": "Carrera 24B # 3-11",
-        "tel": ""
+        "tel": "(1) 233 8085"
     },{
         "sede": "Kennedy",
         "cod":  "303",
@@ -1401,20 +1466,20 @@
         "zoom": 16,
         "web": "",
         "dir": "Calle 33 Sur # 78A-09",
-        "tel": ""
+        "tel": "(1) 273 0071"
     },{
-        "sede": "Sanfrancisco",
+        "sede": "Sanfrancisco - Proyecto Misionero",
         "cod":  "314",
         "ciudad": "Bogotá, Cundinamarca,",
         "region": "Mecusab",
         "latlng": { 
-            "lat": 4.637667,                        
-            "lng": -74.112205
+            "lat": 4.648272,                         
+            "lng": -74.060513
         }, 
         "zoom": 16,
         "web": "",
-        "dir": "Diagonal 65 Bis A # 18Q-37 Sur",
-        "tel": ""
+        "dir": "Diagonal 63 # 19A-266",
+        "tel": "(1) 718 8504"
     },{
         "sede": "Bosa",
         "cod":  "308",
@@ -1427,32 +1492,32 @@
         "zoom": 16,
         "web": "",
         "dir": "Carrera 80H # 60-25 Sur Bosa Argelia",
-        "tel": ""
+        "tel": "(1) 776 0133"
     },{
-        "sede": "Soacha",
+        "sede": "Soacha - Proyecto Misionero",
         "cod":  "315",
         "ciudad": "Bogotá, Cundinamarca,",
         "region": "Mecusab",
         "latlng": { 
-            "lat": 4.575846,                          
-            "lng": -74.215792
+            "lat": 4.596147,                           
+            "lng": -74.071724
         }, 
         "zoom": 16,
         "web": "",
-        "dir": "Calle 12B # 1-12 Este Urb. España",
-        "tel": ""
+        "dir": "Carrera 3 # 11–20 Ubate Sector II",
+        "tel": "(1) 711 3553"
     },{
-        "sede": "Puerta Abierta",
+        "sede": "Puerta Abierta - Proyecto Misionero",
         "cod":  "312",
         "ciudad": "Bogotá, Cundinamarca,",
         "region": "Mecusab",
         "latlng": { 
-            "lat": 4.757142,                           
-            "lng": -74.047963
+            "lat": 4.753459,                            
+            "lng": -74.046968
         }, 
         "zoom": 16,
         "web": "",
-        "dir": "Carrera 49 # 176-14 Nueva Zelandia",
+        "dir": "Calle 172 # 45-28",
         "tel": ""
     },{
         "sede": "Juan Pablo II",
@@ -1468,30 +1533,17 @@
         "dir": "Carrera 18Q # 68B-27 Sur",
         "tel": ""
     },{
-        "sede": "El Virrey",
-        "cod":  "317",
-        "ciudad": "Bogotá, Cundinamarca,",
-        "region": "Mecusab",
-        "latlng": { 
-            "lat": 4.668902,                            
-            "lng": -74.040446
-        }, 
-        "zoom": 16,
-        "web": "",
-        "dir": "Calle 91Sur # 3D-71 B. Bellavista",
-        "tel": ""
-    },{
-        "sede": "Cielos Abiertos",
+        "sede": "Mosquera - Proyecto Misionero",
         "cod":  "338",
         "ciudad": "Bogotá, Cundinamarca,",
         "region": "Mecusab",
         "latlng": { 
-            "lat": 4.711236,                               
-            "lng": -74.222048
+            "lat": 4.605487,                                
+            "lng": -74.069755
         }, 
         "zoom": 16,
         "web": "",
-        "dir": "Calle 15 # 2-16 Mosquera",
+        "dir": "Carrera 5 Este # 20–33 Autop. Siberia–Girardot",
         "tel": ""
     },{
         "sede": "Principal",
@@ -1505,6 +1557,487 @@
         "zoom": 16,
         "web": "",
         "dir": "Carrera 13 # 2-116 B. Arenitas",
+        "tel": "(2) 247 8152"
+    },{
+        "sede": "Principal",
+        "cod":  "232",
+        "ciudad": "Bilbao, Tolima,",
+        "region": "Sur Oriental",
+        "latlng": { 
+            "lat": 3.274059,                                 
+            "lng": -75.746387
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "",
         "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "228",
+        "ciudad": "Puerto Saldaña, Tolima,",
+        "region": "Sur Oriental",
+        "latlng": { 
+            "lat": 3.385427,                                 
+            "lng": -75.709483
+        },
+        "zoom": 16,
+        "web": "",
+        "dir": "",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "233",
+        "ciudad": "Berlín, Tolima,",
+        "region": "Sur Oriental",
+        "latlng": { 
+            "lat": 3.744246,                                 
+            "lng": -75.677975
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "254",
+        "ciudad": "Libano, Tolima,",
+        "region": "Sur Oriental",
+        "latlng": { 
+            "lat": 4.921481,                                 
+            "lng": -75.075286
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Calle 2 # 11-70",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "261",
+        "ciudad": "Villa Hermosa, Tolima,",
+        "region": "Sur Oriental",
+        "latlng": { 
+            "lat": 4.988680,                                 
+            "lng": -75.133546
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "263",
+        "ciudad": "Santiago Pérez, Ataco, Tolima,",
+        "region": "Sur Oriental",
+        "latlng": { 
+            "lat": 3.416814,                                 
+            "lng": -75.616756
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "Proyecto Misionero",
+        "ciudad": "El Edén, Tolima,",
+        "region": "Sur Oriental",
+        "latlng": { 
+            "lat": 3.425098,                                 
+            "lng": -75.689939
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Vereda El Edén",
+        "tel": ""
+    },{
+        "sede": "Proyecto Misionero",
+        "cod":  "260",
+        "ciudad": "San Antonio, Tolima,",
+        "region": "Sur Oriental",
+        "latlng": { 
+            "lat": 3.914283,                                 
+            "lng": -75.513272
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Carrera 4 # 4-37",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "262",
+        "ciudad": "Purificación, Tolima,",
+        "region": "Sur Oriental",
+        "latlng": { 
+            "lat": 3.864081,                                 
+            "lng": -74.938346
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Calle 6 # 5A-89B",
+        "tel": "(2) 228 0206"
+    },{
+        "sede": "Principal",
+        "cod":  "273",
+        "ciudad": "El Limón, Tolima,",
+        "region": "Sur Oriental",
+        "latlng": { 
+            "lat": 3.874994,                                 
+            "lng": -75.517656
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Vereda El Limón",
+        "tel": "(2) 326 2127"
+    },{
+        "sede": "Principal",
+        "cod":  "277",
+        "ciudad": "La Laguna, Ataco, Tolima,",
+        "region": "Sur Oriental",
+        "latlng": { 
+            "lat": 3.866798,                                 
+            "lng": -74.850106
+        },
+        "zoom": 16,
+        "web": "",
+        "dir": "Vereda La Laguna",
+        "tel": ""
+    },{
+        "sede": "Proyecto Misionero",
+        "cod":  "259",
+        "ciudad": "La Ilusión, Milán, Caquetá,",
+        "region": "Sur Oriental",
+        "latlng": { 
+            "lat": 1.266666,                                  
+            "lng": -75.520280
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Vereda La Ilusión",
+        "tel": ""
+    },{
+        "sede": "Proyecto Misionero",
+        "cod":  "268",
+        "ciudad": "Río Negro, Puerto Rico, Caquetá,",
+        "region": "Sur Oriental",
+        "latlng": { 
+            "lat": 1.613262,                                 
+            "lng": -74.995850
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Calle Principal - Diagonal Polideportivo",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "248",
+        "ciudad": "Tres Esquinas, San Vicente del Caguán, Caquetá,",
+        "region": "Sur Oriental",
+        "latlng": { 
+            "lat": 1.868273,                                 
+            "lng": -74.812131
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "",
+        "tel": ""
+    },{
+        "sede": "Proyecto Misionero",
+        "cod":  "256",
+        "ciudad": "Puerto Betania, Caquetá,",
+        "region": "Sur Oriental",
+        "latlng": { 
+            "lat": 1.686764,                                 
+            "lng": -74.773512
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "",
+        "tel": ""
+    },{
+        "sede": "Proyecto Misionero",
+        "cod":  "278",
+        "ciudad": "Belén, Caquetá,",
+        "region": "Sur Oriental",
+        "latlng": { 
+            "lat": 1.482010,                                 
+            "lng": -75.879623
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "",
+        "tel": "(4) 431 0315"
+    },{
+        "sede": "Principal",
+        "cod":  "276",
+        "ciudad": "San Andrés, Tello, Huila,",
+        "region": "Sur Oriental",
+        "latlng": { 
+            "lat": 3.059373,                                
+            "lng": -75.108101
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Vereda San Andrés",
+        "tel": ""
+    },{
+        "sede": "Proyecto Misionero",
+        "cod":  "270",
+        "ciudad": "Villa Lobos, Huila,",
+        "region": "Sur Oriental",
+        "latlng": { 
+            "lat": 1.657147,                                 
+            "lng": -76.226521
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "324",
+        "ciudad": "Villavicencio, Meta,",
+        "region": "Mecusab",
+        "latlng": { 
+            "lat": 4.151067,                                 
+            "lng": -73.631899
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Carrera 26 # 37-35",
+        "tel": "(8) 662 4589"
+    },{
+        "sede": "Principal",
+        "cod":  "322",
+        "ciudad": "Cumaral, Meta,",
+        "region": "Mecusab",
+        "latlng": { 
+            "lat": 4.226976,                                 
+            "lng": -73.251991
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Carrera 19 # 11-89",
+        "tel": "(8) 687 0848"
+    },{
+        "sede": "Principal",
+        "cod":  "323",
+        "ciudad": "Granada, Meta,",
+        "region": "Mecusab",
+        "latlng": { 
+            "lat": 3.547129,                                 
+            "lng": -73.709509
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Calle 21 # 12-50",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "327",
+        "ciudad": "Macarena, Meta,",
+        "region": "Mecusab",
+        "latlng": { 
+            "lat": 2.065865,                                 
+            "lng": -73.965822
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Carrera 7 # 7-26",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "325",
+        "ciudad": "Morichal, Meta,",
+        "region": "Mecusab",
+        "latlng": { 
+            "lat": 4.655589,                                 
+            "lng": -71.524390
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Calle 36 # 19-52 Este",
+        "tel": "(8) 665 0420"
+    },{
+        "sede": "Principal",
+        "cod":  "329",
+        "ciudad": "Restrepo, Meta,",
+        "region": "Mecusab",
+        "latlng": { 
+            "lat": 4.257312,                                 
+            "lng": -73.568678
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Carrera 1D # 10C-23 B. Brisas del Llano",
+        "tel": ""
+    },{
+        "sede": "Ciudad Porfia",
+        "cod":  "331",
+        "ciudad": "Villavicencio, Meta,",
+        "region": "Mecusab",
+        "latlng": { 
+            "lat": 4.081705,                                 
+            "lng": -73.669359
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Calle 62 # 45-02",
+        "tel": "(8) 669 5937"
+    },{
+        "sede": "33.3",
+        "cod":  "326",
+        "ciudad": "Villavicencio, Meta,",
+        "region": "Mecusab",
+        "latlng": { 
+            "lat": 4.139795,                                 
+            "lng": -73.636674
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Calle 26B # 37-55 B. 7 Agosto",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "330",
+        "ciudad": "Lejanias, Meta,",
+        "region": "Mecusab",
+        "latlng": { 
+            "lat": 3.526450,                                 
+            "lng": -74.022293
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Calle 5 # 10-06",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "332",
+        "ciudad": "Bucaramanga, Santander,",
+        "region": "Mecusab",
+        "latlng": { 
+            "lat": 7.124373,                                 
+            "lng": -73.112449
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Carrera 33 # 35-46",
+        "tel": "(7) 645 0009"
+    },{
+        "sede": "Principal",
+        "cod":  "333",
+        "ciudad": "Socorro, Santander,",
+        "region": "Mecusab",
+        "latlng": { 
+            "lat": 6.468952,                                 
+            "lng": -73.262233
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Carrera 15 # 12-42",
+        "tel": "(7) 727 5898"
+    },{
+        "sede": "Proyecto Misionero",
+        "cod":  "334",
+        "ciudad": "Barbosa, Santander,",
+        "region": "Mecusab",
+        "latlng": { 
+            "lat": 5.933208,                                 
+            "lng": -73.622283
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Transv 3 # 5-201",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "319",
+        "ciudad": "Chiquinquira, Boyacá,",
+        "region": "Mecusab",
+        "latlng": { 
+            "lat": 5.617180,                                 
+            "lng": -73.814314
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Calle 19 # 8-42",
+        "tel": "(7) 726 8048"
+    },{
+        "sede": "Proyecto Misionero",
+        "cod":  "320",
+        "ciudad": "Duitama, Boyacá,",
+        "region": "Mecusab",
+        "latlng": { 
+            "lat": 5.824335,                                 
+            "lng": -73.035290
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": ": Calle 12 # 18–22  2do Piso",
+        "tel": ""
+    },{
+        "sede": "Proyecto Misionero",
+        "cod":  "321",
+        "ciudad": "Tunja, Boyacá,",
+        "region": "Mecusab",
+        "latlng": { 
+            "lat": 5.545903,                                 
+            "lng": -73.346661
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Transversal 8A # 29–29 Salón social B. Maldonado",
+        "tel": "(7) 745 4535"
+    },{
+        "sede": "Principal",
+        "cod":  "336",
+        "ciudad": "Leticia, Amazonas,",
+        "region": "Mecusab",
+        "latlng": { 
+            "lat": -4.213403,                                 
+            "lng": -69.937726
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Calle 9 # 6-57",
+        "tel": "(8) 592 7027"
+    },{
+        "sede": "Principal",
+        "cod":  "337",
+        "ciudad": "Comunidad Achagua, Amazonas,",
+        "region": "Mecusab",
+        "latlng": { 
+            "lat": -4.205595,                                 
+            "lng": -69.935169
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Calle 35A # 19D-19",
+        "tel": "(8) 666 6588"
+    },{
+        "sede": "Betel",
+        "cod":  "307",
+        "ciudad": "Bogotá, Cundinamarca,",
+        "region": "Mecusab",
+        "latlng": { 
+            "lat": 4.691216,                                 
+            "lng": -74.099758
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Calle 72 # 77A–63 2do Piso",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "309",
+        "ciudad": "Buenavista, Amazonas,",
+        "region": "Mecusab",
+        "latlng": { 
+            "lat": 5.041056,                                 
+            "lng": -67.819855
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Calle 189 # 5-17 B. Buenavista",
+        "tel": "(8) 677 7379"
     }
 ]
