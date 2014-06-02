@@ -11,7 +11,7 @@ define(function (require) {
 	return  Backbone.Collection.extend({
 
 		model: sedeModel,
-		url: "js/app/model/data/sedes.json",
+		url: "js/app/model/data/sedes.json?v=12",
 	});
 
 });
