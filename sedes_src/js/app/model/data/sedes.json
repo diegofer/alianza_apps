@@ -421,7 +421,7 @@
         "region": "Central",
         "latlng": { 
             "lat": 8.749960, 
-            "Ing": -75.884846
+            "lng": -75.884846
         },
         "zoom": 16,
         "web": "",
