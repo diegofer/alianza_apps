@@ -2039,5 +2039,1240 @@
         "web": "",
         "dir": "Calle 189 # 5-17 B. Buenavista",
         "tel": "(8) 677 7379"
+    },{
+        "sede": "San Bosco",
+        "cod":  "401",
+        "ciudad": "Cali, Valle,",
+        "region": "Valle",
+        "latlng": { 
+            "lat": 3.443423,                                 
+            "lng": -76.530641
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Carrera 14 # 11-62 B. San Bosco",
+        "tel": "(2) 884 2449 - 881 1010"
+    },{
+        "sede": "Independencia",
+        "cod":  "424",
+        "ciudad": "Buenaventura, Valle,",
+        "region": "Valle",
+        "latlng": { 
+            "lat": 3.874017,                                 
+            "lng": -77.003212
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Calle 6 # 62-04 Piso 2",
+        "tel": "(2) 240 0652"
+    },{
+        "sede": "Alfonso López",
+        "cod":  "402",
+        "ciudad": "Cali, Valle,",
+        "region": "Valle",
+        "latlng": { 
+            "lat": 3.457345,                                 
+            "lng": -76.483235
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Carrera 7L Bis # 76-118",
+        "tel": "(2) 662 7594"
+    },{
+        "sede": "La Unión",
+        "cod":  "403",
+        "ciudad": "Cali, Valle,",
+        "region": "Valle",
+        "latlng": { 
+            "lat": 3.407473,                                 
+            "lng": -76.507454
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Carrera 41H # 46-03",
+        "tel": "(2) 378 1199"
+    },{
+        "sede": "Buenos Aires",
+        "cod":  "404",
+        "ciudad": "Cali, Valle,",
+        "region": "Valle",
+        "latlng": { 
+            "lat": 3.392056,                                 
+            "lng": -76.559081
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Carrera 71 # 3C-72",
+        "tel": "(2) 375 5127 "
+    },{
+        "sede": "San Luis",
+        "cod":  "405",
+        "ciudad": "Cali, Valle,",
+        "region": "Valle",
+        "latlng": { 
+            "lat": 3.481965,                                 
+            "lng": -76.484190
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Calle 73A # 1A - 14-266",
+        "tel": "(2) 403 7673"
+    },{
+        "sede": "León XIII",
+        "cod":  "406",
+        "ciudad": "Cali, Valle,",
+        "region": "Valle",
+        "latlng": { 
+            "lat": 3.417230,                                 
+            "lng": -76.499361
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Carrera 32 # 34-17",
+        "tel": "(2) 326 8710 – 8711"
+    },{
+        "sede": "Las Américas",
+        "cod":  "407",
+        "ciudad": "Cali, Valle,",
+        "region": "Valle",
+        "latlng": { 
+            "lat": 3.448410,                                 
+            "lng": -76.504251
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Calle 44 # 11-68",
+        "tel": "(2) 448 1883"
+    },{
+        "sede": "7 Agosto",
+        "cod":  "408",
+        "ciudad": "Cali, Valle,",
+        "region": "Valle",
+        "latlng": { 
+            "lat": 3.438435,                                 
+            "lng": -76.492871
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Calle 71 # 11-130",
+        "tel": ""
+    },{
+        "sede": "Villa Gorgona",
+        "cod":  "409",
+        "ciudad": "Cali, Valle,",
+        "region": "Valle",
+        "latlng": { 
+            "lat": 3.447334,                                
+            "lng": -76.531260
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Carrera 10 # 11-61",
+        "tel": "(2) 260 7187"
+    },{
+        "sede": "El Retiro",
+        "cod":  "416",
+        "ciudad": "Cali, Valle,",
+        "region": "Valle",
+        "latlng": { 
+            "lat": 3.409595,                                
+            "lng": -76.499466
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Calle 39 # 51-72",
+        "tel": ""
+    },{
+        "sede": "El Carmelo",
+        "cod":  "419",
+        "ciudad": "Cali, Valle,",
+        "region": "Valle",
+        "latlng": { 
+            "lat": 3.400519,                                 
+            "lng": -76.383415
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Calle 16 No. 13-70 B. Candelaría",
+        "tel": ""
+    },{
+        "sede": "Alirio Mora",
+        "cod":  "418",
+        "ciudad": "Cali, Valle,",
+        "region": "Valle",
+        "latlng": { 
+            "lat": 3.438174,                                 
+            "lng": -76.480281
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Carrera 26B # 74-41",
+        "tel": "(2) 423 4279"
+    },{
+        "sede": "Principal",
+        "cod":  "420",
+        "ciudad": "Jamundí, Valle,",
+        "region": "Valle",
+        "latlng": { 
+            "lat": 3.259912,                                 
+            "lng": -76.543392
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Carrera 11 # 6-73 Piso 2",
+        "tel": ""
+    },{
+        "sede": "La Esperanza",
+        "cod":  "433",
+        "ciudad": "Buenaventura, Valle,",
+        "region": "Valle",
+        "latlng": { 
+            "lat": 3.875493,                                 
+            "lng": -77.061281
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Carrera 21 # 5-120 B. Pascual de Andagoya",
+        "tel": ""
+    },{
+        "sede": "El Jorge",
+        "cod":  "412",
+        "ciudad": "Buenaventura, Valle,",
+        "region": "Valle",
+        "latlng": { 
+            "lat": 3.882733,                                 
+            "lng": -77.063810
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Calle 5 # 19-24 B. El Jorge",
+        "tel": "(2) 242 6337"
+    },{
+        "sede": "Bellavista",
+        "cod":  "411",
+        "ciudad": "Buenaventura, Valle,",
+        "region": "Valle",
+        "latlng": { 
+            "lat": 3.879347,                                 
+            "lng": -77.022084
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Carrera 46 # 1A-13",
+        "tel": ""
+    },{
+        "sede": "Zabaletas",
+        "cod":  "417",
+        "ciudad": "Buenaventura, Valle,",
+        "region": "Valle",
+        "latlng": { 
+            "lat": 3.742962,                                 
+            "lng": -76.965110
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Corregimiento No. 8",
+        "tel": ""
+    },{
+        "sede": "Santa Cruz",
+        "cod":  "410",
+        "ciudad": "Buenaventura, Valle,",
+        "region": "Valle",
+        "latlng": { 
+            "lat": 3.885175,                                
+            "lng": -77.050220 
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Carrera 23 # 7-35",
+        "tel": "(2) 243 0926 – 9621"
+    },{
+        "sede": "Juanchaco",
+        "cod":  "421",
+        "ciudad": "Buenaventura, Valle,",
+        "region": "Valle",
+        "latlng": { 
+            "lat": 3.919687,                                 
+            "lng": -77.359693
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Juanchaco Parte Alta",
+        "tel": ""
+    },{
+        "sede": "Nueva Vida",
+        "cod":  "426",
+        "ciudad": "Cali, Valle,",
+        "region": "Valle",
+        "latlng": { 
+            "lat": 3.392206,                                 
+            "lng": -76.558986
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Carrera 71 # 3C-72 B. Buenos Aires ",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "414",
+        "ciudad": "El Charco, Nariño,",
+        "region": "Pacifico",
+        "latlng": { 
+            "lat": 2.478490,                                 
+            "lng": -78.112398
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Calle 11 # 13-03 B. San José",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "415",
+        "ciudad": "Bocas de Satinga, Olaya Herrera, Nariño",
+        "region": "Pacifico",
+        "latlng": { 
+            "lat": 2.347028,                                 
+            "lng": -78.367144
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Barrio Polideportivo",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "427",
+        "ciudad": "Las Marías de Satinga, Olaya Herrera, Nariño",
+        "region": "Pacifico",
+        "latlng": { 
+            "lat": 2.375004,                                 
+            "lng": -78.266667
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Vereda Las Marías de Satinga",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "429",
+        "ciudad": "Guapi, Cauca",
+        "region": "Pacifico",
+        "latlng": { 
+            "lat": 2.566446,                                 
+            "lng": -77.883095
+        }, 
+        "zoom": 16,
+        "web": "B. La Paz",
+        "dir": "",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "430",
+        "ciudad": "La Tola, Nariño",
+        "region": "Pacifico",
+        "latlng": { 
+            "lat": 2.399912,                                 
+            "lng": -78.190792
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "B. Anon Soledad",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "431",
+        "ciudad": "Santa Rita, Santa Barbara Iscuande Nariño",
+        "region": "Pacifico",
+        "latlng": { 
+            "lat": 2.100108,                                 
+            "lng": -77.799983
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "",
+        "tel": "(8) 520 2873"
+    },{
+        "sede": "Principal",
+        "cod":  "431",
+        "ciudad": "Santa Barbara Iscuande, Nariño",
+        "region": "Pacifico",
+        "latlng": { 
+            "lat": 2.449567,                                 
+            "lng": -77.980130
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "B. Los Ángeles",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "428",
+        "ciudad": "Mosquera, Nariño",
+        "region": "Pacifico",
+        "latlng": { 
+            "lat": 2.508283,                                 
+            "lng": -78.451234
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "B. Las Flores",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "413",
+        "ciudad": "San José, El Charcho, Nariño",
+        "region": "Pacifico",
+        "latlng": { 
+            "lat": 2.476026,                                
+            "lng": -78.122207
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Vereda San José",
+        "tel": ""
+    },{
+        "sede": "Encuentro de Vida",
+        "cod":  "422",
+        "ciudad": "Cali, Valle",
+        "region": "Valle",
+        "latlng": { 
+            "lat": 3.396218,                                 
+            "lng": -76.543745
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Autopista Sur # 67-31 B. Limonar",
+        "tel": ""
+    },{
+        "sede": "Ríos de Agua Viva",
+        "cod":  "423",
+        "ciudad": "Buenaventura, Valle",
+        "region": "Valle",
+        "latlng": { 
+            "lat": 3.887687,                                 
+            "lng": -77.075593
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Calle 4 # 5B-39 B. El Naranjito",
+        "tel": ""
+    },{
+        "sede": "Central",
+        "cod":  "501",
+        "ciudad": "Popayán, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 2.442002,                                 
+            "lng": -76.611474
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Carrera 11 # 6-20 B. Valencia",
+        "tel": "(02) 820 7914"
+    },{
+        "sede": "Principal",
+        "cod":  "502",
+        "ciudad": "Bajo Palace, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 2.516358,                                 
+            "lng": -76.528381
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "",
+        "tel": ""
+    },{
+        "sede": "Bello Horizonte",
+        "cod":  "503",
+        "ciudad": "Popayán, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 2.486650,                                 
+            "lng": -76.566228
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Calle 69 # 15N-30 B. Bello Horizonte",
+        "tel": ""
+    },{
+        "sede": "Las Palmas",
+        "cod":  "504",
+        "ciudad": "Popayán, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 2.461181,                                 
+            "lng": -76.584088
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Carrera 6 # 37C-20 B. Las Palmas",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "505",
+        "ciudad": "Timbio, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 2.344208,                                 
+            "lng": -76.675446
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Calle 5 # 12-64 B. Belén",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "506",
+        "ciudad": "Tambo, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 2.452999,                                 
+            "lng": -76.812124
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Calle 5 # 9-42 B. Obrero",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "507",
+        "ciudad": "El Mango, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 2.344272,                                 
+            "lng": -77.230346
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Corregimiento El Mango",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "508",
+        "ciudad": "El Plateado, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 2.465273,                                 
+            "lng": -77.234938
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Corregimiento El Plateado",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "509",
+        "ciudad": "Santander de Quilichao, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 3.012006,                                 
+            "lng": -76.485287
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Carrera 12 # 7-11 B.Centenario",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "510",
+        "ciudad": "Mandiva, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 2.955663,                                 
+            "lng": -76.525033
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Vereda Mandiva Vía Panamericana",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "511",
+        "ciudad": "San Antonio, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 2.557764,                                 
+            "lng": -76.660809
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Vereda San Antonio",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "512",
+        "ciudad": "Usenda, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 2.616974,                                 
+            "lng": -76.415845
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Corregimiento Usenda",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "513",
+        "ciudad": "Piendamó, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 2.637921,                                
+            "lng": -76.529872
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Carrera 4 # 6-81 B. La Inmaculada",
+        "tel": "(2) 825 0635"
+    },{
+        "sede": "Principal",
+        "cod":  "514",
+        "ciudad": "El Carmelo, Cajibio, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 1.750072,                                 
+            "lng": -76.567554
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Corregimiento El Carmelo",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "515",
+        "ciudad": "Casas Bajas, Cajibio, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 2.637023,                                 
+            "lng": -76.716690
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Vereda Casas Bajas",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "516",
+        "ciudad": "Carrizal, Cajibio, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 2.602900,                                 
+            "lng": -76.656353
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Parcelación Carrizal",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "517",
+        "ciudad": "Morales, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 2.751412,                                 
+            "lng": -76.627945
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Carrera 2 # 1-180 B. Modelo",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "518",
+        "ciudad": "Vilachi, Santander de Quilichao, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 2.788221,                                 
+            "lng": -76.461830
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Vereda Vilachi",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "519",
+        "ciudad": "Ciénaga Honda, Caloto, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 3.051698,                                 
+            "lng": -76.587231
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Vereda Ciénaga Honda",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "520",
+        "ciudad": "El Bordo, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 2.112179,                                 
+            "lng": -76.984291
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Carre 3",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "521",
+        "ciudad": "La Pedregosa, Cajibio, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 2.666653,                                 
+            "lng": -76.633354
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Corregimiento La Pedregosa",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "522",
+        "ciudad": "La Arboleda, Santander de Quilichao, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 1.366830,                                 
+            "lng": -77.416657
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Vereda La Arboleda",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "523",
+        "ciudad": "La Argelia, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 2.254660,                                 
+            "lng": -77.247774
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Calle 2 # 2-32 B. La Gloria",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "524",
+        "ciudad": "Santa Lucía, Santander de Quilichao, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 2.988987,                                 
+            "lng": -76.511620
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Vereda Santa Lucía",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "525",
+        "ciudad": "Silvia, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 2.612172,                                 
+            "lng": -76.378060
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Carrera 3 # 11-73 B. San Agustín",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "526",
+        "ciudad": "Pasto, Nariño",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 1.201692,                                 
+            "lng": -77.271138
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Carrera 10 # 18-30 B. Avenida Idema Esquina",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "527",
+        "ciudad": "Ipiales, Nariño",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 0.826921,                                 
+            "lng": -77.636421
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Carrera 3 - Calle 12 Esquina B. La Libertad",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "528",
+        "ciudad": "La Unión, Nariño",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 0.874707,                                 
+            "lng": -77.809981
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Carrera 2 # 18-38 B. Eduardo Santos",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "529",
+        "ciudad": "Tumaco, Nariño",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 1.804806,                                 
+            "lng": -78.766475
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Carrera 10 # 10-28 B. Calle Caldas",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "530",
+        "ciudad": "Las Guacas, Tambo, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 2.581596,                                 
+            "lng": -76.863913
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Vereda Las Guacas",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "531",
+        "ciudad": "La Independencia, Tambo, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 2.456594,                                 
+            "lng": -76.807590
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Vereda La Independencia",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "532",
+        "ciudad": "Granada, Tambo, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 2.466772,                                 
+            "lng": -76.811652
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Vereda Granada",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "533",
+        "ciudad": "Pueblo Nuevo, Tambo, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 2.453814,                                 
+            "lng": -76.801300
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Vereda Pueblo Nuevo",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "534",
+        "ciudad": "La Calera, Tambo, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 2.748868,                                  
+            "lng": -76.399646
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Vereda La Calera",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "535",
+        "ciudad": "Los Andes, Tambo, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 2.458702,                                 
+            "lng": -76.806664
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Vereda Los Andes",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "536",
+        "ciudad": "El Diviso, Piendamó, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 2.830547,                                   
+            "lng": -76.471634
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Vereda El Diviso",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "537",
+        "ciudad": "Uvales, Piendamó, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 2.742570,                                
+            "lng": -76.577750 
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Vereda Uvales",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "538",
+        "ciudad": "Pureto, Balboa, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 2.046787,                                 
+            "lng": -77.293625
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Corregimiento Pureto",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "539",
+        "ciudad": "Miraflores, Silvia, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 3.017632,                                 
+            "lng": -76.349748
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Vereda Miraflores",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "540",
+        "ciudad": "Guayabal, Santander de Quilichao, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 2.537714,                                 
+            "lng": -76.888386
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Vereda Guayabal",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "541",
+        "ciudad": "La Planada, Balboa, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 2.110689,                                 
+            "lng": -77.219167
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Corregimiento La Planada",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "542",
+        "ciudad": "La Alianza, Tambo, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 2.264246,                                 
+            "lng": -76.898015
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Corregimiento La Alianza",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "543",
+        "ciudad": "Zarzal, Patia, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 2.373500,                                
+            "lng": -77.092361 
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Vereda Zarzal",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "544",
+        "ciudad": "Filipinas, Caldono, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 2.844691,                                
+            "lng": -76.430693 
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Vereda Filipinas",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "545",
+        "ciudad": "Balboa, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 2.038599,                                  
+            "lng": -77.217881
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Calle 1 Sur # 4-18 B. La Libertad",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "546",
+        "ciudad": "Altamira, La Vega, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 2.976202,                                 
+            "lng": -76.796462
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Corregimiento Altamira",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "547",
+        "ciudad": "El Estrecho, Patia, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 1.959036,                                 
+            "lng": -77.121277
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Corregimiento El Estrecho",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "548",
+        "ciudad": "Corinto, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 3.174705,                                 
+            "lng": -76.258474
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Calle 4 # 11-30 B. Colombia",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "549",
+        "ciudad": "Paez, Santander de Quilichao, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 2.891318,                                 
+            "lng": -76.487460
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Vereda Paez",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "550",
+        "ciudad": "Inza, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 2.547769,                                 
+            "lng": -76.066301
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Calle 3 # 4-52",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "551",
+        "ciudad": "El Hoyo, Tambo, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 2.203888,                                 
+            "lng": -77.006903
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Corregimiento El Hoyo",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "552",
+        "ciudad": "La Vega, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 2.083319,                                
+            "lng": -76.774814
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Calle 2 # 2-29 B. Santa María",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "554",
+        "ciudad": "Limoncito, Tambo, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 2.521053,                                 
+            "lng": -76.917126
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Vereda Limoncito",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "556",
+        "ciudad": "Olivares, Suarez, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 2.963962,                                 
+            "lng": -76.709924
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Vereda Olivares",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "557",
+        "ciudad": "Bellavista, Suarez, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 2.981791,                                 
+            "lng": -76.785455
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Vereda Bellavista",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "558",
+        "ciudad": "Altorico, Morales, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 2.763240,                                 
+            "lng": -76.637699
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Vereda Altorico",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "559",
+        "ciudad": "Vista Hermosa, Suarez, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 3.013836,                                 
+            "lng": -76.703335
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Vereda Vista Hermosa",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "560",
+        "ciudad": "San Rafael, Santander de Quilichao, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 3.063534,                                 
+            "lng": -76.463134
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Vereda San Rafael",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "584",
+        "ciudad": "Belén-Honduras, Morales, Cauca",
+        "region": "Sur",
+        "latlng": { 
+            "lat": 2.799438,                                 
+            "lng": -76.775081
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Vereda Belén-Honduras",
+        "tel": ""
+    },{
+        "sede": "San Marcos",
+        "cod":  "425",
+        "ciudad": "Buenaventura, Valle",
+        "region": "Valle",
+        "latlng": { 
+            "lat": 3.706487,                                
+            "lng": -76.958903
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Corregimiento #8 Vereda San Marcos",
+        "tel": ""
+    },{
+        "sede": "Manuela Beltrán",
+        "cod":  "426",
+        "ciudad": "Cali, Valle",
+        "region": "Valle",
+        "latlng": { 
+            "lat": 3.422177,                                 
+            "lng": -76.471053
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Calle 112 # 26I-91",
+        "tel": ""
+    },{
+        "sede": "Principal",
+        "cod":  "434",
+        "ciudad": "Palmira, Valle",
+        "region": "Valle",
+        "latlng": { 
+            "lat": 3.524616,                                  
+            "lng": -76.288638
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Calle 29 No. 15-71",
+        "tel": ""
+    },{
+        "sede": "Nueva Vida",
+        "cod":  "435",
+        "ciudad": "Buenaventura, Valle",
+        "region": "Valle",
+        "latlng": { 
+            "lat": 3.872380,                                   
+            "lng": -76.993290
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Carrera 68 # 68-81 B. El Cambio ",
+        "tel": ""
     }
 ]
