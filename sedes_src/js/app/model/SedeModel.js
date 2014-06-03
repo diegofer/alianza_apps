@@ -8,7 +8,7 @@ define(function (require) {
 
 	return  Backbone.Model.extend({
 
-		urlRoot: "js/app/model/data/sedes.json?v=13",
+		urlRoot: "js/app/model/data/sedes.json?v=14",
 	});
 
 });
