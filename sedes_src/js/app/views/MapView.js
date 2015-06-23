@@ -7,6 +7,7 @@ define(function (require) {
 		Backbone     = require('backbone'),
 		L            = require('src/leaflet/leaflet'),
 
+		capaColombia      = new L.LayerGroup(),
 		capaCentral       = new L.LayerGroup(),
 		capaSurOriental   = new L.LayerGroup(),
 		capaMecusab       = new L.LayerGroup(),
@@ -155,6 +156,15 @@ define(function (require) {
 
 	    },
 
+	    showColombia: function() {
+
+	    	_(this.collection.models).each(function(sede){
+	    		capaColombia.addLayer( this.drawMarker(sede) );
+	    	}, this);
+	    	this.addCapa(capaColombia, L.latLng(4.520855,-74.098308), 6);
+
+	    },
+
 	    addCapa: function(capa, latLng, zoom) {
 	    	this.map.addLayer(capa);
 	    	this.map.setView(latLng, zoom)
@@ -187,6 +197,10 @@ define(function (require) {
 			_(arrayRegiones).each(function(obj){
 				this.map.removeLayer(obj.capa);
 			}, this);
+		},
+
+		removeColombia: function() {
+			this.map.removeLayer(capaColombia);
 		}
 
 

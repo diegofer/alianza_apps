@@ -45,7 +45,8 @@ define(function (require) {
 		routes: {
 			''             : 'inicio',
 			'sede/:id'     : 'sedeDetalle',
-			'region/:name' : 'regionDetalle'
+			'region/:name' : 'regionDetalle',
+			'colombia'     : 'colombia'
 		},
 
 		inicio: function() {
@@ -64,10 +65,17 @@ define(function (require) {
 		},
 
 		regionDetalle: function(name) {
+			this.mapView.removeColombia();
 			this.selectMenuItem(name);
 			this.clearSelectLisItem();
 			this.mapView.clearMarkers();
 			this.mapView.showRegion(name);	
+		},
+
+		colombia: function() {
+			this.selectMenuItem('colombia');
+			this.mapView.removeRegion();
+			this.mapView.showColombia();
 		},
 
 		selectMenuItem: function(menuItem) {
