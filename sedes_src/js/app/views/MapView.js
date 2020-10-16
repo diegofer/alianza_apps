@@ -69,10 +69,15 @@ define(function (require) {
 		    var capaBase = L.tileLayer(mqUrl, {
 		    	attribution: osmAttrib+' | '+mqAttrib,
 				subdomains: ['otile1','otile2','otile3','otile4']
-		    });
+			});
+			
+			var mapUrl = "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
+            var osmAttribution = '©<a href="https://openstreetmap.org" target="_blank">OpenStreetMap</a> contributors';
+            var capa = new L.tileLayer(mapUrl, {maxZoom: 19, attribution: osmAttribution});
+
 		   	
 		    this.map = L.map(this.el); // no le doy la ubicacion para no entrar en conflicto cuando se recarga la pagina desde otra coordenada
-		    this.map.addLayer(capaBase);
+		    this.map.addLayer(capa);
 		},
 
 		setMarker: function(sede) {
