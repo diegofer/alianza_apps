@@ -17,7 +17,7 @@
         "ciudad": "Armenia Quindío",
         "region": "Central",
         "latlng": { 
-            "lat": 4.549861299510984, 
+            "lat": 4.549861299510984,    
             "lng": -75.66729951139223 
         },
         "zoom": 16,
@@ -30,12 +30,12 @@
         "ciudad": "Armenia Quindío",
         "region": "Central",
         "latlng": { 
-            "lat": 4.536274,  
-            "lng": -75.668757
+            "lat": 4.540621,
+            "lng": -75.673548
         },
         "zoom": 16,
         "web": "",
-        "dir": "Calle 12 # 13-50 Parque Sucre",
+        "dir": "Calle 13 # 22 - 20 B. Los Alamos",
         "tel": ""
     },{
         "sede": "Belén",
