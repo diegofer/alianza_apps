@@ -1351,6 +1351,19 @@
         "dir": "Vereda La Libertad",
         "tel": ""
     },{
+        "sede": "Encuentro Sur",
+        "cod":  "404",
+        "ciudad": "Cali, Valle",
+        "region": "Valle",
+        "latlng": { 
+            "lat": 3.393248,                     
+            "lng": -76.547213
+        }, 
+        "zoom": 16,
+        "web": "",
+        "dir": "Carrera 71 No. 3C-72 B. Buenos Aires",
+        "tel": "(2) 3755127"
+    },{
         "sede": "El Encuentro Heroes",
         "cod":  "302",
         "ciudad": "Bogotá, Cundinamarca,",
@@ -2037,7 +2050,7 @@
         }, 
         "zoom": 16,
         "web": "",
-        "dir": "Carrera 7L Bis # 76-118",
+        "dir": "Carrera 7L Bis # 76-118 B. Alfonso López",
         "tel": "(2) 662 7594"
     },{
         "sede": "La Unión",
@@ -2050,7 +2063,7 @@
         }, 
         "zoom": 16,
         "web": "",
-        "dir": "Carrera 41H # 46-03",
+        "dir": "Carrera 41H # 46-03 B. La Unión",
         "tel": "(2) 378 1199"
     },{
         "sede": "Buenos Aires",
@@ -2076,7 +2089,7 @@
         }, 
         "zoom": 16,
         "web": "",
-        "dir": "Calle 73A # 1A - 14-266",
+        "dir": "Calle 73A # 1A - 14-266 B. San Luis",
         "tel": "(2) 403 7673"
     },{
         "sede": "León XIII",
@@ -2089,8 +2102,8 @@
         }, 
         "zoom": 16,
         "web": "",
-        "dir": "Carrera 32 # 34-17",
-        "tel": "(2) 326 8710 – 8711"
+        "dir": "Carrera 32 # 34-17 B. León XXIII",
+        "tel": "(2) 327 8710 – 326 8711"
     },{
         "sede": "Las Américas",
         "cod":  "407",
@@ -2115,12 +2128,12 @@
         }, 
         "zoom": 16,
         "web": "",
-        "dir": "Calle 71 # 11-130",
-        "tel": ""
+        "dir": "Calle 71 # 11-130 B. 7 de agosto",
+        "tel": "3857037 - 3731081"
     },{
-        "sede": "Villa Gorgona",
+        "sede": "Villagorgona",
         "cod":  "409",
-        "ciudad": "Cali, Valle,",
+        "ciudad": "Candelaria, Valle,",
         "region": "Valle",
         "latlng": { 
             "lat": 3.447334,                                
@@ -2132,7 +2145,7 @@
         "tel": "(2) 260 7187"
     },{
         "sede": "El Retiro",
-        "cod":  "416",
+        "cod":  "41o",
         "ciudad": "Cali, Valle,",
         "region": "Valle",
         "latlng": { 
@@ -2141,12 +2154,12 @@
         }, 
         "zoom": 16,
         "web": "",
-        "dir": "Calle 39 # 51-72",
-        "tel": ""
+        "dir": "Calle 39 # 51-72 B. El retiro",
+        "tel": "3867792"
     },{
         "sede": "El Carmelo",
-        "cod":  "419",
-        "ciudad": "Cali, Valle,",
+        "cod":  "412",
+        "ciudad": "Candelaria, Valle,",
         "region": "Valle",
         "latlng": { 
             "lat": 3.400519,                                 
@@ -2154,11 +2167,11 @@
         }, 
         "zoom": 16,
         "web": "",
-        "dir": "Calle 16 No. 13-70 B. Candelaría",
+        "dir": "Calle 16 No. 13-70",
         "tel": ""
     },{
         "sede": "Alirio Mora",
-        "cod":  "418",
+        "cod":  "411",
         "ciudad": "Cali, Valle,",
         "region": "Valle",
         "latlng": { 
@@ -3211,33 +3224,33 @@
         "tel": ""
     },{
         "sede": "Manuela Beltrán",
-        "cod":  "426",
+        "cod":  "415",
         "ciudad": "Cali, Valle",
         "region": "Valle",
         "latlng": { 
-            "lat": 3.422177,                                 
-            "lng": -76.471053
+            "lat": 3.421793,                              
+            "lng": -76.471423
         }, 
         "zoom": 16,
         "web": "",
-        "dir": "Calle 112 # 26I-91",
-        "tel": ""
+        "dir": "Calle 112 # 26I-91 B. Manuela Beltrán",
+        "tel": "4427419"
     },{
         "sede": "Principal",
-        "cod":  "434",
+        "cod":  "416",
         "ciudad": "Palmira, Valle",
         "region": "Valle",
         "latlng": { 
-            "lat": 3.524616,                                  
-            "lng": -76.288638
+            "lat": 3.525701,                                  
+            "lng": -76.289509
         }, 
         "zoom": 16,
         "web": "",
-        "dir": "Calle 29 No. 15-71",
+        "dir": "Calle 17 No. 29-80",
         "tel": ""
     },{
         "sede": "Nueva Vida",
-        "cod":  "435",
+        "cod":  "426",
         "ciudad": "Buenaventura, Valle",
         "region": "Valle",
         "latlng": { 
@@ -3246,7 +3259,7 @@
         }, 
         "zoom": 16,
         "web": "",
-        "dir": "Carrera 68 # 68-81 B. El Cambio ",
+        "dir": "AV Cabal Pombo # 68-63 B. El Cambio ",
         "tel": ""
     }
 ]
