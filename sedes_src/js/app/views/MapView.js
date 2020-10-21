@@ -21,7 +21,7 @@ define(function (require) {
 			R_MECUSAB       = 'mecusab',
 			R_PACIFICO      = 'pacifico',
 			R_SUR           = 'sur',
-			R_VALLE           = 'valle';
+			R_VALLE         = 'valle';
 
 		var arrayRegiones   = [];
 
@@ -85,9 +85,11 @@ define(function (require) {
 		},
 
 		drawMarker: function(sede) {
-			var point = sede.get('latlng');
-	        var marker = L.marker([point.lat, point.lng],{icon: this.icon});
-	        marker.bindPopup( '<strong>Sede '+ sede.get('sede') + '</strong><br/>' + sede.get('dir') + '<br/>'+ sede.get('ciudad') + '<br/>'+ 'Tel. ' + sede.get('tel') );
+			console.log(sede.get('geolocalizacion'));
+			var geo = sede.get('geolocalizacion');
+			var point = geo.split(",");
+	        var marker = L.marker([point[0], point[1]],{icon: this.icon});
+	        marker.bindPopup( '<strong>Sede '+ sede.get('nombre') + '</strong><br/>' + sede.get('direccion') + '<br/>'+ sede.get('email') );
 	        return marker;     
 	    },
 
@@ -130,7 +132,7 @@ define(function (require) {
 	    	};
 
 	    	if (name === R_SURORIENTAL) {
-	    		this.populateRegion(capaSurOriental, 'Sur Oriental');
+	    		this.populateRegion(capaSurOriental, 'Sur_Oriental');
 	    		this.addCapa( capaSurOriental, center, region.zoom )
 	    		arrayRegiones.push({name:name, capa:capaSurOriental}); // registramos la capa region...
 	    	};
@@ -164,7 +166,13 @@ define(function (require) {
 	    showColombia: function() {
 
 	    	_(this.collection.models).each(function(sede){
-	    		capaColombia.addLayer( this.drawMarker(sede) );
+
+				//obtener geolocalización
+				if(sede.get('geolocalizacion')) {
+					capaColombia.addLayer( this.drawMarker(sede) );
+				}
+
+	    		
 	    	}, this);
 	    	this.addCapa(capaColombia, L.latLng(4.520855,-74.098308), 6);
 
@@ -177,11 +185,13 @@ define(function (require) {
 
 
 	    populateRegion: function(layer, region) {
-
+			console.log(region);
     		var regionCollection = this.collection.where({region:region});
 
     		_(regionCollection).each(function(sede){
-    			layer.addLayer( this.drawMarker(sede) );
+				if(sede.get('geolocalizacion')) {
+					layer.addLayer( this.drawMarker(sede) );
+				}
     		}, this);	
 	    },
 

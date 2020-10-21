@@ -13,6 +13,7 @@ define(function (require) {
 			console.log('inicializando searchView');
 				
 			this.sedesArray = this.collection.toJSON();
+			//console.log(this.sedesArray);
 			this.listProvider = options.lisProvider;
 		},
 
@@ -31,26 +32,32 @@ define(function (require) {
         },
 
         findByCity: function (searchKey) {
-        	//var key = this.omitirAcentos(searchKey);
-        	//console.log(key);
-          
+			
+			var key = this.cleanText(searchKey);
+
             var results = this.sedesArray.filter(function (element) {
-                var ciudad = element.ciudad;//this.omitirAcentos(element.ciudad);
-                return ciudad.toLowerCase().indexOf(searchKey.toLowerCase()) > -1;
-            });
+				
+				var nombre =   this.cleanText(element.nombre); 
+				var direccion = this.cleanText(element.direccion);
 
-            var firstTen = results.splice(0,30);
+				if ( (nombre.indexOf(key) > -1) || (direccion.indexOf(key) > -1) ) { 
+					return true; 
+				}
+
+                return false;
+            }, this);
+
+			var firstTen = results.splice(0,10);
+			console.log(firstTen);
             this.listProvider.reset(firstTen);
-        },
+		},
+		
 
-        omitirAcentos: function(text) {
-		    var acentos = "ÃÀÁÄÂÈÉËÊÌÍÏÎÒÓÖÔÙÚÜÛãàáäâèéëêìíïîòóöôùúüûÑñÇç";
-		    var original = "AAAAAEEEEIIIIOOOOUUUUaaaaaeeeeiiiioooouuuunncc";
-		    for (var i=0; i<acentos.length; i++) {
-		        text = text.replace(acentos.charAt(i), original.charAt(i));
-		    }
-		    return text;
-		}
+		cleanText: function(str) {
+			//convertir todo a minúsculas y quitar acentos y eñes..
+			return str.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");			
+		},
+		
 
 	});
 

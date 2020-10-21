@@ -44,9 +44,10 @@ require([
 		//iniciamos con datos cargados...
 		var sedesCollection = new SedesCollection();
 		sedesCollection.once('sync', initRouter);
-		sedesCollection.fetch();
+		sedesCollection.fetch();//{daType: 'jsonp'}; //jsonp parece que no es necesario
 
 		function initRouter(data) {
+			//console.log(data); //muestra los datos recibidos
 			window.router = new Router({sedes:data});
 		    Backbone.history.start();
 		}

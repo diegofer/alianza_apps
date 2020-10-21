@@ -60,7 +60,7 @@ define(function (require) {
 		sedeDetalle: function(id) {
 			this.selectMenuItem('home');
 			this.mapView.removeRegion();
-			var sede = this.sedes.findWhere({cod:id});				
+			var sede = this.sedes.findWhere({codigo:id});				
 			this.mapView.showSede(sede);
 		},
 

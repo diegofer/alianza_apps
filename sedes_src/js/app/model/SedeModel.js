@@ -8,7 +8,7 @@ define(function (require) {
 
 	return  Backbone.Model.extend({
 
-		urlRoot: "js/app/model/data/sedes.json?v=14",
+		urlRoot: "https://mialianza.laalianzacristiana.co/api/directorio/getIglesias", //"js/app/model/data/sedes.json?v=14",
 	});
 
 });
