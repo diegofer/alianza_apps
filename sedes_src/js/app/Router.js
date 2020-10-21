@@ -60,8 +60,11 @@ define(function (require) {
 		sedeDetalle: function(id) {
 			this.selectMenuItem('home');
 			this.mapView.removeRegion();
-			var sede = this.sedes.findWhere({codigo:id});				
-			this.mapView.showSede(sede);
+			var sede = this.sedes.findWhere({codigo:id});	
+			// solo si tiene info de geolocalización, mostrar mapa
+			if(sede.get('geolocalizacion')) {
+				this.mapView.showSede(sede);
+			}
 		},
 
 		regionDetalle: function(name) {

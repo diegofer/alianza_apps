@@ -13,14 +13,14 @@
 
 	<style>	
 		body { padding-top: 70px; background-color: #EFEFEF; font-family: 'Open Sans', sans-serif;}
-		#map {height: 800px;}
+		#map {height: 500px;}
 		
 		#barra-nav {background-color: #9f1d21;} 
 		#barra-nav .container-fluid {padding-left: 0;}
 		#barra-nav .navbar-header {background-color: #fefefe;} 
 		#barra-nav .navbar-brand {padding: 0 15px !important;}
 		
-		#menu-principal li a {color:#fefefe !important; font-weight: 300;}	
+		#menu-principal li a {color:#fefefe !important; font-weight: 300; text-align: center;}	
 		#menu-principal li a:hover {background-color: #db3d40;}
 		#menu-principal .active a {background-color: #cc252a;}
 		#titulo, #texto {font-size: 12px; font-weight: bold; text-align: justify;}
@@ -34,6 +34,11 @@
 			-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(191, 70, 72, 0.6);
   			box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(191, 70, 72, 0.6);	
 		}
+
+		@media (min-width: 768px) {
+			#map {height: 800px;}
+		}
+
 		
 	</style>
 
@@ -59,7 +64,7 @@
 				</button>
 
 
-		  		<a class="navbar-brand" href="https://apps.laalianzacristiana.co/sedes">
+		  		<a class="navbar-brand" href="/">
 		  			<img src="img/LOGO-ALIANZA-SEDES.png?v=14">
 		  		</a>  
 		  		
@@ -69,25 +74,25 @@
 
 			  	<ul id="menu-principal" class="nav navbar-nav">
 					<li id="colombia">
-			  			<a  href="#/colombia">COL</a>
+			  			<a  href="#/colombia">Col</a>
 			  		</li>
 			  		<li id="central">
-			  			<a  href="#/region/central">CENTRAL</a>
+			  			<a  href="#/region/central">Central</a>
 			  		</li>
 			  		<li id="sur-oriental">
-			  			<a  href="#/region/sur-oriental">SUR ORIENTAL</a>
+			  			<a  href="#/region/sur-oriental">suroriental</a>
 			  		</li>
 			  		<li id="mecusab">
-			  			<a  href="#/region/mecusab">MECUSAB</a>
+			  			<a  href="#/region/mecusab">Mecusab</a>
 			  		</li>
 			  		<li id="pacifico">
-			  			<a  href="#/region/pacifico">PACÍFICO</a>
+			  			<a  href="#/region/pacifico">Pacífico</a>
 			  		</li>
 			  		<li id="sur">
-			  			<a  href="#/region/sur">SUR</a>
+			  			<a  href="#/region/sur">Sur</a>
 			  		</li>
 			  		<li id="valle">
-			  			<a  href="#/region/valle">VALLE</a>
+			  			<a  href="#/region/valle">Valle</a>
 			  		</li>
 
 			  		
@@ -101,17 +106,15 @@
 	<div class="container-fluid">
 
 		<div class="row">
-			<div class="col-sm-3">
+			<div class="col-sm-12 col-md-3">
 				
 				
-				<p id="titulo">Queremos ayudarle a ubicar la iglesia Alianza más cercana!</p>
-				<p id="texto">
-					Escriba el nombre de la ciudad en Colombia que desea consultar, como resultado verá una lista con la dirección y los nombres de nuestras sedes. Igualmente en la parte de arriba encontrarás las regiones por las que están sectorizadas nuestras iglesias..
-				</p>
+				<!-- <p id="titulo">Queremos ayudarle a ubicar la iglesia Alianza más cercana!</p> -->
+	
 
 				<div class="input-group">
 				    <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
-				    <input id="input-search" type="text" class="form-control" placeholder="ciudad, pueblo, corregimiento...">
+				    <input id="input-search" type="text" class="form-control" placeholder="ciudad, barrio, localidad, departamento">
 				</div>
 
 				<br>
@@ -123,7 +126,7 @@
 			</div> 
 			
 
-			<div class="col-sm-9">
+			<div class="col-sm-12 col-md-9">
 				<div class="panel panel-default">
 					<div class="panel-body">
 						<div id="map"></div>
