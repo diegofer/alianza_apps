@@ -43,7 +43,7 @@ define(function (require) {
 		},
 
 		routes: {
-			''             : 'inicio',
+			''             : 'colombia',
 			'sede/:id'     : 'sedeDetalle',
 			'region/:name' : 'regionDetalle',
 			'colombia'     : 'colombia'
